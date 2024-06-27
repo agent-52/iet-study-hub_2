@@ -1,0 +1,33 @@
+.page1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 88vh;
+}
+.gradientBorderWrapper{
+  background:linear-gradient(to right, green,orange, purple);
+  padding: 0.1rem;
+  max-width: fit-content;
+  border-radius: 999px;
+}
+.gradientBorder{
+  padding-block:0.25rem;
+  padding-inline: 1rem;
+  border-radius: 999px;
+}
+.p1l{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-self: center;
+}
+.p1r{
+  justify-self: center;
+}
+.text-center{
+  text-align: center;
+  
+}
+.cubeVideo{
+  width: 100%;
+}
