@@ -10,6 +10,7 @@ const App = () =>
     <div className="body text-slate-12 background font-sans pi1">
       <Header />
       <Page1 />
+      <hr />
     </div>
   )
 }

@@ -1,8 +1,27 @@
 import Button from "../Button/Button"
 import cubeVideo from "../assets/cube1.1.mp4"
+import { Link } from "react-router-dom"
+import Cube from "../Cube/Cube"
 import "./Page1.css"
 
+/**
+ * Resize
+ */
+window.addEventListener("resize", ()=>{
+  if(window.innerWidth <= 800){
+    document.querySelector(".threejsCube").classList.add("hidden")
+    document.querySelector(".threejsCube").classList.remove("visible")
+  }else{
+    document.querySelector(".threejsCube").classList.add("visible")
+    document.querySelector(".threejsCube").classList.remove("hidden")
+  }
+  console.log(window.innerWidth)
+})
 
+
+/**
+ * Page1
+ */
 const Page1 = () =>
 {
 
@@ -14,7 +33,7 @@ const Page1 = () =>
         <div className="gradientBorderWrapper">
           <div className="gradientBorder background">Introducing IET Study Hub</div>
         </div>
-        <div className="text-large font-gradient font-effect-hero">
+        <div className="text-large font-gradient font-effect-hero nowrap">
           <div>Collection of</div>
           <div>your resources</div>
         </div>
@@ -27,9 +46,12 @@ const Page1 = () =>
           <Button text="Documentation >" version={2}/>
         </div>
       </div>
-      <div className="p1r"><video src={cubeVideo} className="cubeVideo" autoPlay loop muted></video></div>
+      <div className="p1r">
+        <video src={cubeVideo} className="cubeVideo hidden" autoPlay loop muted></video>
+        <div className="threejsCube"><Cube/></div>
+        </div>
     </div>
-    <div className="text-slate-11 text-center text-sm">We Got <span className="slate">Your</span> Back</div>
+    <div className="text-slate-11 text-center text-sm p1bt">We Got <span className="slate">Your</span> Back</div>
     </>
     
   )

@@ -160,6 +160,19 @@
   src: url("../assets/fonts/f3.woff2");
 }
 
+.hidden{
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.visible{
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+.nowrap{
+  white-space: nowrap;
+}
 .font-sans {
   font-family: f1, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
