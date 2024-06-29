@@ -1,0 +1,22 @@
+.subImageBox>img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.subImageBox{
+  max-width: 200px;
+}
+.subBox{
+  border: 1px solid #d6ebfd30;
+  border-radius: 1rem;
+  transition: border 0.3s ease ;
+  padding: 0.25rem;
+}
+.subBox:hover{
+  border: 1px solid #e5edfd7b;
+  /* border: 1px solid #46fea5d4; */
+}
+input:checked + label{
+  color: #46fea5d4;
+}

@@ -36,6 +36,7 @@ const Cube = () =>{
   //Geometry
   const particlesGeometry = new THREE.SphereGeometry(1.6, 32,32)
   // const particlesGeometry = new THREE.BoxGeometry(2,2,2,15,15,15)
+  // const particlesGeometry = new THREE.TetrahedronGeometry(1.5, 20)
   // const particlesGeometry = new THREE.BufferGeometry()
 
   // const count = 2000
@@ -82,20 +83,20 @@ const Cube = () =>{
     // height: window.innerHeight
   }
 
-  // window.addEventListener('resize', () =>
-  // {
-  //     // Update sizes
-  //     sizes.width = window.innerWidth
-  //     sizes.height = window.innerHeight
+  window.addEventListener('resize', () =>
+  {
+      // Update sizes
+      sizes.width = window.innerWidth/3
+      sizes.height = window.innerHeight/1.5
 
-  //     // Update camera
-  //     camera.aspect = sizes.width / sizes.height
-  //     camera.updateProjectionMatrix()
+      // Update camera
+      camera.aspect = sizes.width / sizes.height
+      camera.updateProjectionMatrix()
 
-  //     // Update renderer
-  //     renderer.setSize(sizes.width, sizes.height)
-  //     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
-  // })
+      // Update renderer
+      renderer.setSize(sizes.width, sizes.height)
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
+  })
 
   /**
    * Camera
@@ -130,7 +131,7 @@ const Cube = () =>{
     (font) =>
     {
       const textGeometry = new TextGeometry(
-        "IET STUDY HUB",
+        "I E T STUDY HUB",
         {
           font:font,
           size:0.22,
