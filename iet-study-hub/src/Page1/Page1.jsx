@@ -3,20 +3,7 @@ import cubeVideo from "../assets/cube1.1.mp4"
 import { Link } from "react-router-dom"
 import Cube from "../Cube/Cube"
 import "./Page1.css"
-
-/**
- * Resize
- */
-window.addEventListener("resize", ()=>{
-  if(window.innerWidth <= 800){
-    document.querySelector(".threejsCube").classList.add("hidden")
-    document.querySelector(".threejsCube").classList.remove("visible")
-  }else{
-    document.querySelector(".threejsCube").classList.add("visible")
-    document.querySelector(".threejsCube").classList.remove("hidden")
-  }
-  console.log(window.innerWidth)
-})
+import { useEffect } from "react"
 
 
 /**
@@ -24,6 +11,18 @@ window.addEventListener("resize", ()=>{
  */
 const Page1 = () =>
 {
+  useEffect(()=>{
+    window.addEventListener("resize", ()=>{
+      if(window.innerWidth <= 800){
+        document.querySelector(".threejsCube").classList.add("hidden")
+        document.querySelector(".threejsCube").classList.remove("visible")
+      }else{
+        document.querySelector(".threejsCube").classList.add("visible")
+        document.querySelector(".threejsCube").classList.remove("hidden")
+      }
+      console.log(window.innerWidth)
+    })
+  })
 
 
   return(

@@ -1,5 +1,5 @@
 .page2{
-  margin-top: 5rem;
+  margin-block: 5rem;
 }
 .yearCount{
   font-weight: bold; 
@@ -51,12 +51,6 @@
   /* margin-bottom: 5rem; */
 }
 
-.worldVideo{
-  max-width: 170px;
-}
-.worldVideo>video{
-  width: 100%;
-}
 .p2Main{
   display: flex;
   flex-direction: column;
@@ -65,7 +59,11 @@
 
 }
 .p2Grid{
+  /* margin-top: 2rem; */
+}
+.flexibleGrid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
+  width: 100%;
 }
