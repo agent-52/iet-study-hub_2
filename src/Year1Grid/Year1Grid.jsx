@@ -1,11 +1,42 @@
 import "./Year1Grid.css"
 import { useState , useEffect} from "react"
+import { useParams } from "react-router-dom";
 import { year1ArrayFull, year1Batch1Array, year1Batch2Array } from "../SubjectArrays/SubjectArrays";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Button from "../Button/Button"
 
-const Year1Grid = ({array=[], onClick}) =>
+const DisplayGrid = ({array=[]}) =>{
+
+  return(
+    
+      <div className="flexibleGrid">
+        {array.map((subject) => {
+        return(
+          <div key={subject.subCode} className="flexC alignC gap0 text-slate-12 text-sm1 subBox">
+            <div className="subImageBox"><img className="subImage" src={subject.src} alt="" /></div>
+            <div>{subject.subCode}</div>
+            <div className="text-slate-11">{subject.subName}</div>
+            <div>{subject.teachers.map((teacher) =>{
+              return(
+                <Link to={`./${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
+                  <input type="radio" id={teacher} name={subject.subCode} value={teacher}/>
+                  
+                  <label htmlFor={teacher}>{teacher}</label>
+                </div></Link>
+              )
+            })}</div>
+            {/* <Link to={subject.url}><Button text="Explore" version={2} /></Link> */}
+          </div>
+        )
+        })}
+      </div>
+    
+  )
+}
+const Year1Grid = () =>
 {
+  // const {batch} = useParams
   const updateUrl = (subject, teacher) =>{
     subject.url = `/${subject.subCode}${teacher.split(" ")[0]}`
     console.log(subject.url)
@@ -30,41 +61,17 @@ const Year1Grid = ({array=[], onClick}) =>
 
   })
  
-  // const updateSelectedTeacher = (teacher) =>
-  // {
-  //   setSelectedTeacher(teacher)
-  //   console.log(selectedTeacher)
-  // }
-
+  
   return(
     < div className="flexC gap4 alignC">
       <div className="buttonBox2 text-sm">
-          <div id="active2" onClick={() =>{onClick(year1Batch1Array)}}>Batch-I</div>
-          <div onClick={() =>{onClick(year1Batch2Array)}}>Batch-II</div>
+          <Link className="textDecNone" to={"../year1/batch1"}><div id="active2">Batch-I</div></Link>
+          <Link className="textDecNone" to={"../year1/batch2"}><div>Batch-II</div></Link>
       </div>
-      <div className="flexibleGrid">
-        {array.map((subject) => {
-        return(
-          <div key={subject.subCode} className="flexC alignC gap0 text-slate-12 text-sm1 subBox">
-            <div className="subImageBox"><img className="subImage" src={subject.src} alt="" /></div>
-            <div>{subject.subCode}</div>
-            <div className="text-slate-11">{subject.subName}</div>
-            <div>{subject.teachers.map((teacher) =>{
-              return(
-                <Link to={`/${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
-                  <input type="radio" id={teacher} name={subject.subCode} value={teacher}/>
-                  
-                  <label htmlFor={teacher}>{teacher}</label>
-                </div></Link>
-              )
-            })}</div>
-            {/* <Link to={subject.url}><Button text="Explore" version={2} /></Link> */}
-          </div>
-        )
-        })}
-      </div>
+      <Outlet />
     </div>
   )
+  
 }
 
-export default Year1Grid
+export {Year1Grid, DisplayGrid}
