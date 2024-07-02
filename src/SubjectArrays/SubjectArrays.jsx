@@ -67,10 +67,6 @@ import am1Dbunit5 from "../assets/am1Db/unit5.pdf"
 
 
 
-
-
-
-
 const year1Batch1Array = [
   {
     subCode: "1AMRC1",
@@ -222,102 +218,43 @@ const year1ArrayFull = [
   },
 ]
 
-const am1DbArray = [
+/**
+ * year1 teachers
+*/
+
+const am1DbArray =[am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
+const am1AkArray =[am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
+const am1SaArray = [am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
+
+
+const am1Array = [
   {
     unit:1,
     name:"Differential Calculus",
     yt:"#",
-    notes: am1Dbunit1
   },
   {
     unit:2,
     name:"Advanced Differential Calculus",
     yt:"#",
-    notes: am1Dbunit2
   },
   {
     unit:3,
     name:"Integral Calculus",
     yt:"#",
-    notes: am1Dbunit3
   },
   {
     unit:4,
     name:"Advanced Integral Calculus",
     yt:"#",
-    notes: am1Dbunit4
   },
   {
     unit:5,
     name:"Vector Calculus",
     yt:"#",
-    notes: am1Dbunit5
   },
 ]
-const am1AkArray = [
-  {
-    unit:1,
-    name:"Differential Calculus",
-    yt:"#",
-    notes: am1Dbunit1
-  },
-  {
-    unit:2,
-    name:"Advanced Differential Calculus",
-    yt:"#",
-    notes: am1Dbunit2
-  },
-  {
-    unit:3,
-    name:"Integral Calculus",
-    yt:"#",
-    notes: am1Dbunit3
-  },
-  {
-    unit:4,
-    name:"Advanced Integral Calculus",
-    yt:"#",
-    notes: am1Dbunit4
-  },
-  {
-    unit:5,
-    name:"Vector Calculus",
-    yt:"#",
-    notes: am1Dbunit5
-  },
-]
-const am1SaArray = [
-  {
-    unit:1,
-    name:"Differential Calculus",
-    yt:"#",
-    notes: am1Dbunit1
-  },
-  {
-    unit:2,
-    name:"Advanced Differential Calculus",
-    yt:"#",
-    notes: am1Dbunit2
-  },
-  {
-    unit:3,
-    name:"Integral Calculus",
-    yt:"#",
-    notes: am1Dbunit3
-  },
-  {
-    unit:4,
-    name:"Advanced Integral Calculus",
-    yt:"#",
-    notes: am1Dbunit4
-  },
-  {
-    unit:5,
-    name:"Vector Calculus",
-    yt:"#",
-    notes: am1Dbunit5
-  },
-]
+
 
 /**
  * basic electronics
@@ -833,5 +770,5 @@ const year2CivilBatch1Array = [
 
  ]
 
-export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
+export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
 year2MechBatch1Array, year2CivilBatch1Array, }

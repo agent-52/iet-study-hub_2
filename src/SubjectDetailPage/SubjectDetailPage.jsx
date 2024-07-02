@@ -3,8 +3,17 @@ import "./SubjectDetailPage.css"
 import ytLogo from "../assets/logos/ytLogo1.png"
 import docLogo from "../assets/logos/docLogo.png"
 import reactVideo from "../assets/3d-react.mp4"
-const SubjectDetailPage = ({array, teacher}) =>{
+import { useEffect } from "react"
 
+
+const SubjectDetailPage = ({array, teacher, linksArray}) =>{
+
+  useEffect(()=>{
+    const noteLinkArray = Array.from(document.querySelectorAll(".noteLink"))
+    for (let i=0; i< noteLinkArray.length; i++) {
+      noteLinkArray[i].href = linksArray[i]
+    }
+  },[])
 
   return(
     <div className="body text-slate-12 background font-sans pi1 flexC gap3">
@@ -21,7 +30,7 @@ const SubjectDetailPage = ({array, teacher}) =>{
               <div>Unit{unit.unit}</div>
               <div>{unit.name}</div>
               <div className="smallImageBox"><a href={unit.yt}><img src={ytLogo} alt="yt link" /></a></div>
-              <div className="smallImageBox"><a href={unit.notes}><img src={docLogo} alt="pdf link" /></a></div>
+              <div className="smallImageBox"><a className="noteLink" href=""><img src={docLogo} alt="pdf link" /></a></div>
             </div>
           )
         })}

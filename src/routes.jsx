@@ -2,7 +2,7 @@ import App from "./App/App.jsx"
 import ErrorPage from "./Error/Error.jsx";
 // import Page2 from "./Page2/Page2.jsx";
 import SubjectDetailPage from "./SubjectDetailPage/SubjectDetailPage.jsx";
-import {year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array} from "./SubjectArrays/SubjectArrays.jsx"
+import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array} from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
 
@@ -47,15 +47,15 @@ const routes = [
   
   {
     path: "/year1/batch1/1AMRC1Divyani",
-    element: <SubjectDetailPage array={am1DbArray} teacher="Divyani Badjatiya"/>
+    element: <SubjectDetailPage array={am1Array} teacher="Divyani Badjatiya" linksArray={am1DbArray}/>
   },
   {
     path: "/year1/batch1/1AMRC1Salika",
-    element: <SubjectDetailPage array={am1SaArray} teacher="Salika Ansari"/>
+    element: <SubjectDetailPage array={am1Array} linksArray={am1SaArray} teacher="Salika Ansari"/>
   },
   {
     path: "/year1/batch1/1AMRC1Anas",
-    element: <SubjectDetailPage array={am1AkArray} teacher="Anas Khan"/>
+    element: <SubjectDetailPage array={am1Array} linksArray={am1AkArray} teacher="Anas Khan"/>
   },
   {
     path: "/year1/batch1/1ETRC4Amit",
