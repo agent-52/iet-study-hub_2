@@ -3,7 +3,8 @@ import { useState } from "react"
 import { Outlet } from "react-router-dom"
 import { Link } from "react-router-dom"
 import { useParams } from "react-router-dom"
-import { year2CseBatch1Array, year2CseBatch2Array} from "../SubjectArrays/SubjectArrays"
+import {year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
+  year2MechBatch1Array, year2CivilBatch1Array, } from "../SubjectArrays/SubjectArrays.jsx"
 
 
 const DisplayGrid2 = ({array=[], year, branch, batch,  b1Id="", b2Id="", b3Id="", b4Id="", b5Id="", b6Id="" , b1_1Id="", b2_2Id="" }) =>
@@ -33,7 +34,7 @@ const DisplayGrid2 = ({array=[], year, branch, batch,  b1Id="", b2Id="", b3Id=""
           <div className="text-slate-11">{subject.subName}</div>
           <div>{subject.teachers.map((teacher) =>{
             return(
-              <Link to={`/${year}/${branch}//${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
+              <Link to={`/year${year}/${branch}/${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
                 <input type="radio" id={teacher} name={subject.subCode} value={teacher}/>
                 
                 <label htmlFor={teacher}>{teacher}</label>
@@ -58,8 +59,30 @@ const Year2Grid = ({year=2, }) =>
       {(name1 == "cse" && name2 == "batch1")?
         <DisplayGrid2 array={year2CseBatch1Array} b1Id="active2" branch="cse" year={2} batch="batch1" b1_1Id="active2"/>:
         (name1 == "cse" && name2 == "batch2")?
-        <DisplayGrid2 array={year2CseBatch2Array} b1Id="active2" branch="cse" year={2} batch="batch1" b2_2Id="active2"/>:
-        <DisplayGrid2 array={year2CseBatch1Array} b1Id="active2" branch="cse" year={2} batch="batch1" b1_1Id="active2"/>
+        <DisplayGrid2 array={year2CseBatch2Array} b1Id="active2" branch="cse" year={2} batch="batch2" b2_2Id="active2"/>:
+        (name1 == "it" && name2 == "batch1")?
+        <DisplayGrid2 array={year2ItBatch1Array} b2Id="active2" branch="it" year={2} batch="batch1" b1_1Id="active2"/>:
+        (name1 == "it" && name2 == "batch2")?
+        <DisplayGrid2 array={year2ItBatch2Array} b2Id="active2" branch="it" year={2} batch="batch2" b2_2Id="active2"/>:
+        (name1 == "etc" && name2 == "batch1")?
+        <DisplayGrid2 array={year2EtcBatch1Array} b3Id="active2" branch="etc" year={2} batch="batch1" b1_1Id="active2"/>:
+        (name1 == "etc" && name2 == "batch2")?
+        <DisplayGrid2 array={year2EtcBatch2Array} b3Id="active2" branch="etc" year={2} batch="batch2" b2_2Id="active2"/>:
+        (name1 == "ei" && name2 == "batch1")?
+        <DisplayGrid2 array={year2EiBatch1Array} b4Id="active2" branch="ei" year={2} batch="batch1" b1_1Id="active2"/>:
+        (name1 == "ei" && name2 == "batch2")?
+        <DisplayGrid2 array={year2EiBatch2Array} b4Id="active2" branch="ei" year={2} batch="batch2" b2_2Id="active2"/>:
+        (name1 == "mech" && name2 == "batch1")?
+        <DisplayGrid2 array={year2MechBatch1Array} b5Id="active2" branch="mech" year={2} batch="batch1" b1_1Id="active2"/>:
+        (name1 == "mech" && name2 == "batch2")?
+        <DisplayGrid2 array={year2MechBatch2Array} b5Id="active2" branch="mech" year={2} batch="batch2" b2_2Id="active2"/>:
+        (name1 == "civil" && name2 == "batch1")?
+        <DisplayGrid2 array={year2CivilBatch1Array} b6Id="active2" branch="civil" year={2} batch="batch1" b1_1Id="active2"/>:
+        (name1 == "civil" && name2 == "batch2")?
+        <DisplayGrid2 array={year2CivilBatch2Array} b6Id="active2" branch="civil" year={2} batch="batch2" b2_2Id="active2"/>:null
+
+
+        // <DisplayGrid2 array={year2CseBatch1Array} b2Id="active2" branch="cse" year={2} batch="batch2" b2_2Id="active2"/>
         
       }
     </div> 

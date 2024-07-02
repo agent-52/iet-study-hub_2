@@ -10,6 +10,55 @@ import eei from "../assets/year1Batch2/3.png"
 import cpi from "../assets/year1Batch2/4.png"
 import am2i from "../assets/year1Batch2/6.png"
 
+import cseam3i from "../assets/cse-sem3/1.png"
+import cseoopi from "../assets/cse-sem3/2.png"
+import csedsi from "../assets/cse-sem3/3.png"
+import csedei from "../assets/cse-sem3/4.png"
+import csecai from "../assets/cse-sem3/5.png"
+import csechi from "../assets/cse-sem3/6.png"
+import cseesi from "../assets/cse-sem3/7.png"
+
+import itdmi from "../assets/it-sem3/1.png"
+import itoopi from "../assets/it-sem3/2.png"
+import itdsi from "../assets/it-sem3/3.png"
+import itdei from "../assets/it-sem3/4.png"
+import itcai from "../assets/it-sem3/5.png"
+import itchi from "../assets/it-sem3/6.png"
+import itlmi from "../assets/it-sem3/7.png"
+
+import etcam3i from "../assets/etc-sem3/1.png"
+import etcaei from "../assets/etc-sem3/2.png"
+import etcdsi from "../assets/etc-sem3/3.png"
+import etcdei from "../assets/etc-sem3/4.png"
+import etcnai from "../assets/etc-sem3/5.png"
+import etcswi from "../assets/etc-sem3/6.png"
+import etccsi from "../assets/etc-sem3/7.png"
+
+import eiam3i from "../assets/ei-sem3/1.png"
+import eiaei from "../assets/ei-sem3/2.png"
+import eidsi from "../assets/ei-sem3/3.png"
+import eidei from "../assets/ei-sem3/4.png"
+import einai from "../assets/ei-sem3/5.png"
+import eiswi from "../assets/ei-sem3/6.png"
+import eicsi from "../assets/ei-sem3/7.png"
+
+import mecham3i from "../assets/mech-sem3/1.png"
+import mechmpi from "../assets/mech-sem3/2.png"
+import mechmsi from "../assets/mech-sem3/3.png"
+import mechsomi from "../assets/mech-sem3/4.png"
+import mechati from "../assets/mech-sem3/5.png"
+import mechwi from "../assets/mech-sem3/6.png"
+import mechcsi from "../assets/mech-sem3/7.png"
+
+import civilam3i from "../assets/civil-sem3/1.png"
+import civilami from "../assets/civil-sem3/2.png"
+import civilsi from "../assets/civil-sem3/3.png"
+import civilcmi from "../assets/civil-sem3/4.png"
+import civilsmi from "../assets/civil-sem3/5.png"
+import civildcsi from "../assets/civil-sem3/6.png"
+import civillmi from "../assets/civil-sem3/7.png"
+
+
 import am1Dbunit1 from "../assets/am1Db/unit1.pdf"
 import am1Dbunit2 from "../assets/am1Db/unit2.pdf"
 import am1Dbunit3 from "../assets/am1Db/unit3.pdf"
@@ -453,49 +502,49 @@ const eRsArray = [
   {
     subCode: "3ACRC1",
     subName: "Appled Mathematics-III",
-    src: am1i,
+    src: cseam3i,
     teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
     url:"/1AMRC1Divyani"
   },
   {
     subCode: "3CERC2",
     subName: "Object Oriented Programming",
-    src: emei,
+    src: cseoopi,
     teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
     url:"/1AMRC1Divyani"
   },
   {
     subCode: "3CERC3",
     subName: "Data Structure",
-    src: bei,
+    src: csedsi,
     teachers:["Amit Jha","Astha Gupta"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Digital Electronics",
     subCode: "3CERC4",
-    src: chemi,
+    src: csedei,
     teachers:["Dheeraj Mandloi","Jitendra Singh"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Computer Architecture",
     subCode: "3CERG1",
-    src: engli,
+    src: csecai,
     teachers:["Ruchi Singh"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Computer Hardware & IOT",
     subCode: "3CERL1",
-    src: chemi,
+    src: csechi,
     teachers:["Dheeraj Mandloi","Jitendra Singh"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Environmental Studies",
     subCode: "3SCRS3",
-    src: engli,
+    src: cseesi,
     teachers:["Ruchi Singh"],
     url:"/1AMRC1Divyani"
   },
@@ -503,13 +552,7 @@ const eRsArray = [
  ]
 
  const year2CseBatch2Array = [
-  {
-    subCode: "3CERC3",
-    subName: "Data Structure",
-    src: bei,
-    teachers:["Amit Jha","Astha Gupta"],
-    url:"/1AMRC1Divyani"
-  },
+  
  ]
 
 
@@ -519,49 +562,49 @@ const year2ItBatch1Array = [
   {
     subCode: "3AIRC1",
     subName: "Discrete Mathematics",
-    src: am1i,
+    src: itdmi,
     teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
     url:"/1AMRC1Divyani"
   },
   {
     subCode: "3ITRC2",
     subName: "Object Oriented Programming",
-    src: emei,
+    src: itoopi,
     teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
     url:"/1AMRC1Divyani"
   },
   {
     subCode: "3ITRC3",
     subName: "Data Structure",
-    src: bei,
+    src: itdsi,
     teachers:["Amit Jha","Astha Gupta"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Digital Electronics",
     subCode: "3ITRC4",
-    src: chemi,
+    src: itdei,
     teachers:["Dheeraj Mandloi","Jitendra Singh"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Computer Architecture",
     subCode: "3ITRG1",
-    src: engli,
+    src: itcai,
     teachers:["Ruchi Singh"],
     url:"/1AMRC1Divyani"
   },
   {
     subName: "Computer Hardware & IOT",
     subCode: "3ITRL1",
-    src: chemi,
+    src: itchi,
     teachers:["Dheeraj Mandloi","Jitendra Singh"],
     url:"/1AMRC1Divyani"
   },
   {
-    subName: "Environmental Studies",
+    subName: "Life Management",
     subCode: "3SIRS3",
-    src: engli,
+    src: itlmi,
     teachers:["Ruchi Singh"],
     url:"/1AMRC1Divyani"
   },
@@ -572,5 +615,223 @@ const year2ItBatch1Array = [
   
  ]
 
+//year2 etc
+const year2EtcBatch1Array = [
+  {
+    subCode: "3ATRC1",
+    subName: "Appled Mathematics-III",
+    src: etcam3i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3ETRC2",
+    subName: "Digital Electronics",
+    src: etcdei,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3ETRC3",
+    subName: "Data Structure",
+    src: etcdsi,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Analog Electronics",
+    subCode: "3ETRC4",
+    src: etcaei,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Network Analysis",
+    subCode: "3ETRG1",
+    src: etcnai,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Software Workshop-I",
+    subCode: "3ETRL1",
+    src: etcswi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Communication Skill",
+    subCode: "3STRS3",
+    src: etccsi,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
 
-export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array }
+ ]
+
+//year2 ei
+ const year2EiBatch1Array = [
+  {
+    subCode: "3AERC1",
+    subName: "Appled Mathematics-III",
+    src: eiam3i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3EIRC2",
+    subName: "Digital Electronics",
+    src: eidei,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3EIRC3",
+    subName: "Data Structure",
+    src: eidsi,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Analog Electronics",
+    subCode: "3EIRC4",
+    src: eiaei,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Network Analysis",
+    subCode: "3EIRG1",
+    src: einai,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Software Workshop-I",
+    subCode: "3EIRL1",
+    src: eiswi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Communication Skill",
+    subCode: "3SERS3",
+    src: eicsi,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+
+ ]
+
+//year2 mech
+
+const year2MechBatch1Array = [
+  {
+    subCode: "3AMRC1",
+    subName: "Appled Mathematics-III",
+    src: mecham3i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3MERC2",
+    subName: "Strength Of Material",
+    src: mechsomi,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3MERC3",
+    subName: "Material Science",
+    src: mechmsi,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Manufacturing Process",
+    subCode: "3MERC4",
+    src: mechmpi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Applied Thermodynamics",
+    subCode: "3MERG1",
+    src: mechati,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Workshop",
+    subCode: "3MERL1",
+    src: mechwi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Communication Skill",
+    subCode: "3SMRS3",
+    src: mechcsi,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+
+ ]
+
+//year2 civil
+
+const year2CivilBatch1Array = [
+  {
+    subCode: "AVR3C1",
+    subName: "Appled Mathematics-III",
+    src: civilam3i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "VLR3C2",
+    subName: "Applied Mechanics & Som",
+    src: civilami,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "VLR3C3",
+    subName: "Surveying",
+    src: civilsi,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Construction Material",
+    subCode: "VLR3C4",
+    src: civilcmi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Structural Mechanics",
+    subCode: "VLR3G1",
+    src: civilsmi,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Drafting & Computational Skills",
+    subCode: "VLR3L1",
+    src: civildcsi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Life Management",
+    subCode: "SVR3S3",
+    src: civillmi,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+
+ ]
+
+export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
+year2MechBatch1Array, year2CivilBatch1Array, }

@@ -38,42 +38,7 @@ const routes = [
       {
         path: "year2/:name1/:name2",
         element: <Year2Grid/>,
-        // children:[
-          
-        //   {
-        //     path:"cse",
-        //     element: <DisplayGrid3 array={year2CseBatch1Array} b1Id="active2" branch="cse" year={2}  b1_1Id="active2"/>,
-        //     children:[
-        //       {
-        //         path:"batch1",
-        //         element:<DisplayGrid3 array={year2CseBatch1Array} b1Id="active2" branch="cse" year={2} batch="batch1" b1_1Id="active2"/>,
-        //       },
-        //       {
-        //         path:"batch2",
-        //         element:<DisplayGrid3 array={year2CseBatch2Array} b1Id="active2" branch="cse" year={2} batch="batch2" b2_2Id="active2"/>,
-        //       },
-        //     ]
-            
-      },
-      {
-        path:"it",
-        
-        // children:[
-        //   {
-        //     index:true,
-        //     element:<DisplayGrid3 array={year2ItBatch1Array} b2Id="active2" branch="it" year={2} batch="batch1"/>,
-        //   },
-        //   {
-        //     path:"batch1",
-        //     element:<DisplayGrid3 array={year2ItBatch1Array} b2Id="active2" branch="it" year={2} batch="batch1"/>,
-        //   },
-        //   {
-        //     path:"batch2",
-        //     element:<DisplayGrid3 array={year2ItBatch2Array} b2Id="active2" branch="it" year={2} batch="batch2"/>,
-        //   }
-        // ]
-      }
-        
+      },       
       
     ]
   
