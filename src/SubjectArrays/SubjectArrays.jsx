@@ -1,13 +1,13 @@
 import am1i from "../assets/year1Batch1/1.png"
-import emei from "../assets/year1Batch1/2.png"
-import bei from "../assets/year1Batch1/3.png"
-import chemi from "../assets/year1Batch1/4.png"
-import engli from "../assets/year1Batch1/5.png"
+import emei from "../assets/year1Batch1/5.png"
+import bei from "../assets/year1Batch1/4.png"
+import chemi from "../assets/year1Batch1/3.png"
+import engli from "../assets/year1Batch1/2.png"
 import api from "../assets/year1Batch2/1.png"
-import edi from "../assets/year1Batch2/3.png"
-import humai from "../assets/year1Batch2/2.png"
-import eei from "../assets/year1Batch2/4.png"
-import cpi from "../assets/year1Batch2/5.png"
+import edi from "../assets/year1Batch2/2.png"
+import humai from "../assets/year1Batch2/5.png"
+import eei from "../assets/year1Batch2/3.png"
+import cpi from "../assets/year1Batch2/4.png"
 import am2i from "../assets/year1Batch2/6.png"
 
 import am1Dbunit1 from "../assets/am1Db/unit1.pdf"
@@ -444,4 +444,133 @@ const eRsArray = [
   },
 ]
 
-export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray }
+/**
+ * Year2
+ */
+ //year2 cse
+
+ const year2CseBatch1Array = [
+  {
+    subCode: "3ACRC1",
+    subName: "Appled Mathematics-III",
+    src: am1i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3CERC2",
+    subName: "Object Oriented Programming",
+    src: emei,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3CERC3",
+    subName: "Data Structure",
+    src: bei,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Digital Electronics",
+    subCode: "3CERC4",
+    src: chemi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Computer Architecture",
+    subCode: "3CERG1",
+    src: engli,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Computer Hardware & IOT",
+    subCode: "3CERL1",
+    src: chemi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Environmental Studies",
+    subCode: "3SCRS3",
+    src: engli,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+
+ ]
+
+ const year2CseBatch2Array = [
+  {
+    subCode: "3CERC3",
+    subName: "Data Structure",
+    src: bei,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+ ]
+
+
+//Year2 IT
+
+const year2ItBatch1Array = [
+  {
+    subCode: "3AIRC1",
+    subName: "Discrete Mathematics",
+    src: am1i,
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3ITRC2",
+    subName: "Object Oriented Programming",
+    src: emei,
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subCode: "3ITRC3",
+    subName: "Data Structure",
+    src: bei,
+    teachers:["Amit Jha","Astha Gupta"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Digital Electronics",
+    subCode: "3ITRC4",
+    src: chemi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Computer Architecture",
+    subCode: "3ITRG1",
+    src: engli,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Computer Hardware & IOT",
+    subCode: "3ITRL1",
+    src: chemi,
+    teachers:["Dheeraj Mandloi","Jitendra Singh"],
+    url:"/1AMRC1Divyani"
+  },
+  {
+    subName: "Environmental Studies",
+    subCode: "3SIRS3",
+    src: engli,
+    teachers:["Ruchi Singh"],
+    url:"/1AMRC1Divyani"
+  },
+
+ ]
+
+ const year2ItBatch2Array = [
+  
+ ]
+
+
+export {year1ArrayFull, year1Batch1Array, year1Batch2Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array }

@@ -348,7 +348,7 @@
   gap: 2rem;
   justify-content: center;
 }
-.buttonBox2>div{
+.buttonBox2>*{
   border: 1px solid #d6ebfd30;
   padding: 0.6rem 1rem;
   border-radius: 0.35rem;

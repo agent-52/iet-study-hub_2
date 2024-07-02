@@ -6,10 +6,14 @@ import { Link} from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import Button from "../Button/Button"
 
-const DisplayGrid = ({array=[]}) =>{
+const DisplayGrid = ({array=[], batch, b1Id="", b2Id="" }) =>{
 
   return(
-    
+    < div className="flexC gap4 alignC">
+      <div className="buttonBox2 text-sm">
+          <Link className="textDecNone" id={b1Id} to={"/year1/batch1"}><div>Batch-I</div></Link>
+          <Link className="textDecNone" id={b2Id} to={"/year1/batch2"}><div>Batch-II</div></Link>
+      </div>
       <div className="flexibleGrid">
         {array.map((subject) => {
         return(
@@ -19,7 +23,7 @@ const DisplayGrid = ({array=[]}) =>{
             <div className="text-slate-11">{subject.subName}</div>
             <div>{subject.teachers.map((teacher) =>{
               return(
-                <Link to={`./${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
+                <Link to={`/year1/${batch}/${subject.subCode}${teacher.split(" ")[0]}`} key={teacher} className="textDecNone text-slate-12 teacherName"><div className="gap0 flex">
                   <input type="radio" id={teacher} name={subject.subCode} value={teacher}/>
                   
                   <label htmlFor={teacher}>{teacher}</label>
@@ -31,45 +35,37 @@ const DisplayGrid = ({array=[]}) =>{
         )
         })}
       </div>
-    
+    </div>
   )
 }
-const Year1Grid = () =>
+const Year1Grid = ({index=false}) =>
 {
-  // const {batch} = useParams
-  const updateUrl = (subject, teacher) =>{
-    subject.url = `/${subject.subCode}${teacher.split(" ")[0]}`
-    console.log(subject.url)
-  }
-  useEffect(()=>{
+  // useEffect(()=>{
         
-    const bwButtons = Array.from(document.querySelectorAll(".buttonBox2>div"))
-    // const firstInputArray = Array.from(document.querySelectorAll(".teacherBox"))
+  //   const bwButtons = Array.from(document.querySelectorAll(".buttonBox2>*"))
+  //   // const firstInputArray = Array.from(document.querySelectorAll(".teacherBox"))
 
-    // for (const inputDiv of firstInputArray) {
-    //   inputDiv.firstChild.firstChild.checked = true
-    // }
-    //  firstInput.checked = true
-    for (const button of bwButtons) {
-      button.addEventListener("click",()=>{
-        for (const button of bwButtons){
-          button.id = ""
-        }
-        button.id = "active2"
-      })
-    }
+  //   // for (const inputDiv of firstInputArray) {
+  //   //   inputDiv.firstChild.firstChild.checked = true
+  //   // }
+  //   //  firstInput.checked = true
+  //   for (const button of bwButtons) {
+  //     button.addEventListener("click",()=>{
+  //       for (const button of bwButtons){
+  //         button.id = ""
+  //       }
+  //       button.id = "active2"
+  //     })
+  //   }
 
-  })
+  // })
  
   
   return(
-    < div className="flexC gap4 alignC">
-      <div className="buttonBox2 text-sm">
-          <Link className="textDecNone" to={"../year1/batch1"}><div id="active2">Batch-I</div></Link>
-          <Link className="textDecNone" to={"../year1/batch2"}><div>Batch-II</div></Link>
-      </div>
-      <Outlet />
-    </div>
+    <div>
+      {index?(<DisplayGrid array={year1Batch1Array} b1Id="active2" batch="batch1"/>):<Outlet />}
+    </div>  
+    
   )
   
 }
