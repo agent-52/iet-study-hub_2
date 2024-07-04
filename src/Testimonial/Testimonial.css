@@ -1,0 +1,40 @@
+
+.testimonialBox{
+  width: min-content;
+  animation: slide 60s linear infinite alternate ;
+  
+}
+
+.testimonialBox:hover{
+  animation-play-state: paused;
+}
+.testimonial{
+  background: linear-gradient(rgba(80, 80, 80, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
+  padding: 1.5rem 2rem;
+  border: 1px solid #d9edfe25;
+  border-radius: 1rem;
+  border-bottom: 0px ;
+  justify-content: space-between;
+  /* max-width: 100%; */
+}
+@media (min-width: 768px){
+  .testimonial{
+    width: 450px;
+    min-height: 291px;
+  }
+}
+@media (max-width: 767px){
+  .testimonial{
+    width: 450px;
+    min-height: 291px;
+  }
+}
+
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-30%);
+  }
+}

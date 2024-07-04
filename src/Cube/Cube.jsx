@@ -35,6 +35,7 @@ const Cube = () =>{
    */
   //Geometry
   const particlesGeometry = new THREE.SphereGeometry(1.6, 32,32)
+  console.log(particlesGeometry)
   // const particlesGeometry = new THREE.BoxGeometry(2,2,2,15,15,15)
   // const particlesGeometry = new THREE.TetrahedronGeometry(1.5, 20)
   // const particlesGeometry = new THREE.BufferGeometry()
@@ -85,9 +86,19 @@ const Cube = () =>{
 
   window.addEventListener('resize', () =>
   {
+      
       // Update sizes
-      sizes.width = window.innerWidth/3
-      sizes.height = window.innerHeight/1.5
+      
+      if(window.innerWidth>=1100){
+        sizes.width = window.innerWidth/3
+        sizes.height = window.innerHeight/1.5
+      }else if(window.innerWidth>768 && window.innerWidth<1100){
+        sizes.width = window.innerWidth/2.5
+        sizes.height = window.innerHeight/1.5
+      }else if(window.innerHeight<=768){
+        sizes.width = window.innerWidth/2.5
+        sizes.height = window.innerHeight/3
+      }
 
       // Update camera
       camera.aspect = sizes.width / sizes.height

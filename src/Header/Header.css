@@ -7,7 +7,52 @@
   position: sticky;
   top:0;
   z-index: 20;
+  gap: 0.5rem;
   backdrop-filter: blur(1rem);
   /* max-width: 100vw; */
 }
+.header2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.7rem;
+  position: sticky;
+  top:0;
+  z-index: 20;
+  backdrop-filter: blur(1rem);
+}
+.navMobile{
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.stick{
+  background-color: white;
+  width: 25px;
+  height: 2px;
+}
 
+@media (max-width:768px) {
+  .header2{
+    display: flexbox;
+    visibility: visible;
+    opacity: 1;
+  }
+  .header{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@media (min-width:769px) {
+  .header2{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .header{
+    display: flexbox;
+    visibility: visible;
+    opacity: 1;
+  }
+}

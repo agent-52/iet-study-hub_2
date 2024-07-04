@@ -5,7 +5,8 @@ const Header = () =>
 
 
   return(
-    <div className="header">
+    <div>
+    <div className="header noWrap">
       <div className="logo text-m1 font-medium1">IET Study Hub</div>
       <div className="navDesktop">
         <div className="font-medium text-sm text-slate-11">About</div>
@@ -19,6 +20,19 @@ const Header = () =>
         <Button text="Contribute >" version={1}/>
       </div>
     </div>
+
+    <div className="header2">
+      <div className="logo text-m1 font-medium1">IET Study Hub</div>
+      <div className="navMobile">
+        <div className="stick"></div>
+        <div className="stick"></div>
+        <div className="stick"></div>
+      </div>
+    </div>
+
+    </div>
+
+    
   )
 }
 

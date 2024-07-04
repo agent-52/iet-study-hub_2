@@ -13,14 +13,14 @@ const Page1 = () =>
 {
   useEffect(()=>{
     window.addEventListener("resize", ()=>{
-      if(window.innerWidth <= 800){
-        document.querySelector(".threejsCube").classList.add("hidden")
-        document.querySelector(".threejsCube").classList.remove("visible")
-      }else{
-        document.querySelector(".threejsCube").classList.add("visible")
-        document.querySelector(".threejsCube").classList.remove("hidden")
-      }
-      console.log(window.innerWidth)
+      // if(window.innerWidth <= 800){
+      //   document.querySelector(".threejsCube").classList.add("hidden")
+      //   document.querySelector(".threejsCube").classList.remove("visible")
+      // }else{
+      //   document.querySelector(".threejsCube").classList.add("visible")
+      //   document.querySelector(".threejsCube").classList.remove("hidden")
+      // }
+      // console.log(window.innerWidth)
     })
   })
 
@@ -33,8 +33,8 @@ const Page1 = () =>
           <div className="gradientBorder background">Introducing IET Study Hub</div>
         </div>
         <div className="text-large font-gradient font-effect-hero nowrap">
-          <div>Collection of</div>
-          <div>your resources</div>
+          <div className="heading">Collection of</div>
+          <div className="heading">your resources</div>
         </div>
         <div className="text-sm1 text-slate-11">
           <div>The all in one place for all your study problems.</div>
@@ -46,7 +46,6 @@ const Page1 = () =>
         </div>
       </div>
       <div className="p1r">
-        <video src={cubeVideo} className="cubeVideo hidden" autoPlay loop muted></video>
         <div className="threejsCube"><Cube/></div>
         </div>
     </div>

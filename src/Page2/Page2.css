@@ -18,7 +18,7 @@
   justify-content: left;
   border-radius: 0.7rem;
   position: relative;
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 
 .snake{
@@ -44,8 +44,10 @@
 }
 
 .yearBox{
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   width: 100%;
   /* margin-bottom: 5rem; */

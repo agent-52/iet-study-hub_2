@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer.jsx"
 import Page1 from "../Page1/Page1";
 import Testimonial from "../Testimonial/Testimonial";
 import { Outlet } from "react-router-dom";
@@ -62,6 +63,8 @@ const App = () =>
       </div>
       <div className="break"></div>
       <Testimonial />
+      <div className="break"></div>
+      <Footer />
     </div>
   )
 }
