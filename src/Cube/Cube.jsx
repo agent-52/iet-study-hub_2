@@ -95,10 +95,14 @@ const Cube = () =>{
       }else if(window.innerWidth>768 && window.innerWidth<1100){
         sizes.width = window.innerWidth/2.5
         sizes.height = window.innerHeight/1.5
-      }else if(window.innerHeight<=768){
+      }else if(window.innerWidth>450 && window.innerWidth<=768){
         sizes.width = window.innerWidth/2.5
         sizes.height = window.innerHeight/3
+      }else if(window.innerWidth<=450){
+        sizes.width = window.innerWidth/1.5
+        sizes.height = window.innerHeight/3
       }
+      
 
       // Update camera
       camera.aspect = sizes.width / sizes.height

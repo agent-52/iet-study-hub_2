@@ -62,3 +62,11 @@
     margin-bottom: 5rem;
   }
 }
+@media (max-width: 450px){
+  .p1l{
+    gap: 1.5rem;
+  }
+  .page1{
+    gap: 1.5rem;
+  }
+}

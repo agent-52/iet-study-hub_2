@@ -23,7 +23,7 @@ const SubjectDetailPage = ({array, teacher, linksArray}) =>{
         <div className="text-medium text-center">Here are your <span className="text-blue-a10">Resources</span></div>
         <div className="text-sm1 text-slate-11 text-center">All the pyqs, notes, assignments, projets related to <span className="font-medium1">{teacher}</span></div>
       </div>
-      <div className="flexC alignC gap1">
+      <div className="flexC alignC gap1 text-sm1">
         {array.map((unit)=>{
           return(
             <div className="unitBlock" key={unit.unit}>

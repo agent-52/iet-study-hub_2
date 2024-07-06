@@ -15,18 +15,15 @@
   border-radius: 1rem;
   border-bottom: 0px ;
   justify-content: space-between;
+  width: 450px;
+  min-height: 291px;
   /* max-width: 100%; */
 }
-@media (min-width: 768px){
+
+@media (max-width: 450px){
   .testimonial{
-    width: 450px;
-    min-height: 291px;
-  }
-}
-@media (max-width: 767px){
-  .testimonial{
-    width: 450px;
-    min-height: 291px;
+    width: 310px;
+    min-height: 200px;
   }
 }
 
