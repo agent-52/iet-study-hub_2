@@ -10,6 +10,28 @@ import {TextGeometry} from "three/examples/jsm/geometries/TextGeometry"
 const Cube = () =>{
   useEffect(()=>{
     
+    /**
+     * Sizes
+     */
+
+    const sizes = {
+      
+    }
+
+
+    if(window.innerWidth>=1100){
+      sizes.width = window.innerWidth/3
+      sizes.height = window.innerHeight/1.5
+    }else if(window.innerWidth>768 && window.innerWidth<1100){
+      sizes.width = window.innerWidth/2.5
+      sizes.height = window.innerHeight/1.5
+    }else if(window.innerWidth>450 && window.innerWidth<=768){
+      sizes.width = window.innerWidth/2.5
+      sizes.height = window.innerHeight/3
+    }else if(window.innerWidth<=450){
+      sizes.width = window.innerWidth/1.5
+      sizes.height = window.innerHeight/3
+    }
 
   /**
    * Base
@@ -74,15 +96,8 @@ const Cube = () =>{
 
   scene.add(particles)
 
-  /**
-   * Sizes
-   */
-  const sizes = {
-    width: window.innerWidth/3,
-    height: window.innerHeight/1.5
-    // width: window.innerWidth,
-    // height: window.innerHeight
-  }
+  
+  
 
   window.addEventListener('resize', () =>
   {
@@ -142,7 +157,7 @@ const Cube = () =>{
    */
   const fontLoader = new FontLoader()
   fontLoader.load(
-    "src/assets/fonts/helvetiker_regular.typeface.json",
+    "/helvetiker_regular.typeface.json",
     (font) =>
     {
       const textGeometry = new TextGeometry(
