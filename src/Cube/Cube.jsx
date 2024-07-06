@@ -49,7 +49,7 @@ const Cube = () =>{
    * Textures
    */
   const textureLoader = new THREE.TextureLoader()
-  const matcapTexture1 = textureLoader.load("src/assets/textures/matcaps/3.png")
+  const matcapTexture1 = textureLoader.load("/textures/matcaps/3.png")
   // const particleTexture = textureLoader.load("/textures/particles/2.png")
 
   /**
