@@ -2,10 +2,10 @@ import App from "./App/App.jsx"
 import ErrorPage from "./Error/Error.jsx";
 // import Page2 from "./Page2/Page2.jsx";
 import SubjectDetailPage from "./SubjectDetailPage/SubjectDetailPage.jsx";
-import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array} from "./SubjectArrays/SubjectArrays.jsx"
+import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, beArray, cArray, eArray} from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
-import Team from "./Team/Team.jsx"
+import Team from "./Team/Team.j"
 const routes = [
   {
     path:"/",
@@ -63,23 +63,23 @@ const routes = [
   },
   {
     path: "/year1/batch1/1ETRC4Amit",
-    element: <SubjectDetailPage array={beAjArray} teacher="Amit Jha"/>
+    element: <SubjectDetailPage array={beArray} teacher="Amit Jha" linksArray={beAjArray}/>
   },
   {
     path: "/year1/batch1/1ETRC4Astha",
-    element: <SubjectDetailPage array={beAgArray} teacher="Astha Gupta"/>
+    element: <SubjectDetailPage array={beArray} teacher="Astha Gupta" linksArray={beAgArray}/>
   },
   {
     path: "/year1/batch1/1ACRC2Dheeraj",
-    element: <SubjectDetailPage array={cDmArray} teacher="Dheeraj Mandloi"/>
+    element: <SubjectDetailPage array={cArray} teacher="Dheeraj Mandloi" linksArray={cDmArray}/>
   },
   {
     path: "/year1/batch1/1ACRC2Jitendra",
-    element: <SubjectDetailPage array={cJsArray} teacher="Jitendra Singh"/>
+    element: <SubjectDetailPage array={cArray} teacher="Jitendra Singh" linksArray={cJsArray}/>
   },
   {
     path: "/year1/batch1/1SSRS1Ruchi",
-    element: <SubjectDetailPage array={eRsArray} teacher="Ruchi Singh"/>
+    element: <SubjectDetailPage array={eArray} teacher="Ruchi Singh" linksArray={eRsArray}/>
   },
 ]
   

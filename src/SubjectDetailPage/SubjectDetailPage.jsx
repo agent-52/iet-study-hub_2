@@ -6,12 +6,17 @@ import reactVideo from "../assets/3d-react.mp4"
 import { useEffect } from "react"
 
 
-const SubjectDetailPage = ({array, teacher, linksArray}) =>{
+const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], pyq2023Array=[]}) =>{
 
   useEffect(()=>{
     const noteLinkArray = Array.from(document.querySelectorAll(".noteLink"))
     for (let i=0; i< noteLinkArray.length; i++) {
       noteLinkArray[i].href = linksArray[i]
+    }
+
+    const pyq2023LinkArray = Array.from(document.querySelectorAll(".pyq2023"))
+    for (let i=0; i< pyq2023LinkArray.length; i++) {
+      pyq2023LinkArray[i].href = pyq2023Array[i]
     }
   },[])
 
@@ -35,6 +40,46 @@ const SubjectDetailPage = ({array, teacher, linksArray}) =>{
           )
         })}
       </div>
+      {/* <div className=" gap1 text-medium1 pyqHeading">
+        <div>Exams</div>
+        <div>Year</div>
+        <div>Pyq</div>
+        <div>Solution</div>
+      </div> */}
+      
+        {pyqYearArray.map((year) =>{
+          return( 
+            <div className="flexC alignC gap1 text-sm1" key={year}> 
+              <div className="unitBlock">
+                <div>Mst-1</div>
+                <div>{year}</div>
+                <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+              </div>
+              <div className="unitBlock">
+                <div>Mst-2</div>
+                <div>{year}</div>
+                <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+              </div>
+              <div className="unitBlock">
+                <div>Mst-3</div>
+                <div>{year}</div>
+                <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+              </div>
+              <div className="unitBlock">
+                <div>End-Sem</div>
+                <div>{year}</div>
+                <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+              </div>
+            </div>
+                
+          )
+        })}
+      
+      
     </div>
   )
 }

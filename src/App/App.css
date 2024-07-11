@@ -193,6 +193,9 @@
 .text-blue-a10{
   color: var(--blue-a10)
 }
+.text-blue-a11{
+  color: var(--blue-a11)
+}
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -201,6 +204,10 @@
 .textDecNone{
   text-decoration: none;
   color: inherit;
+}
+#textDecNone{
+  text-decoration: none;
+  color: var(--blue-a11)
 }
 
 *{
