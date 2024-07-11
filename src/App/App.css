@@ -144,7 +144,7 @@
   --black-a11: rgba(0, 0, 0, .9);
   --black-a12: rgba(0, 0, 0, .95);
 
-  --background: #05050a;
+  --background: black;
 }
 
 @font-face {
@@ -279,7 +279,10 @@
   padding-inline: 2rem;
 }
 
-
+/*Relative*/
+.relative{
+  position: relative;
+}
 
 /*flex*/
 .navDesktop{

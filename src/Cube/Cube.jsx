@@ -145,11 +145,12 @@ const Cube = () =>{
    * Renderer
    */
   const renderer = new THREE.WebGLRenderer({
-      canvas: canvas
+      canvas: canvas,
+      alpha: true,
   })
   renderer.setSize(sizes.width, sizes.height)
-  renderer.alpha = true
-  renderer.setClearColor("#05050a")
+  
+  // renderer.setClearColor("#05050a")
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2))
 
   /**

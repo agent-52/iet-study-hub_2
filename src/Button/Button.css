@@ -19,3 +19,19 @@ button{
   background-color: black;
   color:#f1f7feb5;
 }
+.button1:hover{
+  background: rgba(255, 255, 255, 0.89);
+}
+.button2:hover{
+  background: #05050a;
+  color: white;
+
+}
+.button1:active{
+  background: rgba(255, 255, 255, 0.89);
+}
+.button2:active{
+  background: #05050a;
+  color: white;
+
+}

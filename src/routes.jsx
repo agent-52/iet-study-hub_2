@@ -5,7 +5,7 @@ import SubjectDetailPage from "./SubjectDetailPage/SubjectDetailPage.jsx";
 import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array} from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
-
+import Team from "./Team/Team.jsx"
 const routes = [
   {
     path:"/",
@@ -43,6 +43,10 @@ const routes = [
     ]
   
     
+  },
+  {
+    path: "/team",
+    element: <Team />
   },
   
   {

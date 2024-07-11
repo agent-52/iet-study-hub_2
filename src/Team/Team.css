@@ -1,0 +1,49 @@
+.webgl2{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2; */
+    /* border: 2px solid red */
+}
+.abhayImage{
+    max-width: 300px;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    filter: grayscale(0.9);
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 0.4s ease-in-out;
+}
+.abhayImage:hover{
+    filter: grayscale(0.2);
+}
+.abhayImage:active{
+    filter: grayscale(0.2);
+}
+.abhayImage>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.abhay{
+    
+    margin-bottom: 15rem;
+}
+.teamPage1{
+    margin-top: 3rem;
+    /* position: relative;  */
+    /* border: 2px solid red */
+}
+.contributorM{
+    filter: grayscale(0.9);
+    max-width: 300px;
+    aspect-ratio: 1;
+    transition: all 0.4s ease-in-out;
+}
+.contributorM>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
