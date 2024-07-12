@@ -7,7 +7,7 @@ import Testimonial from "../Testimonial/Testimonial";
 import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom"
 import world from "../assets/3d-control.mp4"
-import { year1ArrayFull, year1Batch1Array, year1Batch2Array } from "../SubjectArrays/SubjectArrays";
+import { year1Batch1Array, year1Batch2Array } from "../SubjectArrays/SubjectArrays";
 import "./App.css"
 import "../Page2/Page2.css"
 

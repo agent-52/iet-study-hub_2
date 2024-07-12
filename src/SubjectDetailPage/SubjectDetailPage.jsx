@@ -11,7 +11,7 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
   useEffect(()=>{
     const noteLinkArray = Array.from(document.querySelectorAll(".noteLink"))
     for (let i=0; i< noteLinkArray.length; i++) {
-      noteLinkArray[i].href = linksArray[i]
+      noteLinkArray[i].href = "/"+linksArray[i]
     }
 
     const pyq2023LinkArray = Array.from(document.querySelectorAll(".pyq2023"))
@@ -35,7 +35,7 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
               <div>Unit{unit.unit}</div>
               <div>{unit.name}</div>
               <div className="smallImageBox"><a href={unit.yt}><img src={ytLogo} alt="yt link" /></a></div>
-              <div className="smallImageBox"><a className="noteLink" href=""><img src={docLogo} alt="pdf link" /></a></div>
+              <div className="smallImageBox"><a className="noteLink" href="" ><img src={docLogo} alt="pdf link" /></a></div>
             </div>
           )
         })}

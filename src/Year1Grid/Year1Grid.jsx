@@ -1,7 +1,7 @@
 import "./Year1Grid.css"
 import { useState , useEffect} from "react"
 import { useParams } from "react-router-dom";
-import { year1ArrayFull, year1Batch1Array, year1Batch2Array } from "../SubjectArrays/SubjectArrays";
+import {year1Batch1Array, year1Batch2Array } from "../SubjectArrays/SubjectArrays";
 import { Link} from "react-router-dom";
 import { Outlet } from "react-router-dom";
 import Button from "../Button/Button"

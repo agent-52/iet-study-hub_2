@@ -1,69 +1,97 @@
-import am1i from "../assets/year1Batch1/1.png"
-import emei from "../assets/year1Batch1/5.png"
-import bei from "../assets/year1Batch1/4.png"
-import chemi from "../assets/year1Batch1/3.png"
-import engli from "../assets/year1Batch1/2.png"
-import api from "../assets/year1Batch2/1.png"
-import edi from "../assets/year1Batch2/2.png"
-import humai from "../assets/year1Batch2/5.png"
-import eei from "../assets/year1Batch2/3.png"
-import cpi from "../assets/year1Batch2/4.png"
-import am2i from "../assets/year1Batch2/6.png"
+import am1i from "../assets/images/year1Batch1/1.png"
+import emei from "../assets/images/year1Batch1/5.png"
+import bei from "../assets/images/year1Batch1/4.png"
+import chemi from "../assets/images/year1Batch1/3.png"
+import engli from "../assets/images/year1Batch1/2.png"
+import api from "../assets/images/year1Batch2/1.png"
+import edi from "../assets/images/year1Batch2/2.png"
+import humai from "../assets/images/year1Batch2/5.png"
+import eei from "../assets/images/year1Batch2/3.png"
+import cpi from "../assets/images/year1Batch2/4.png"
+import am2i from "../assets/images/year1Batch2/6.png"
 
-import cseam3i from "../assets/cse-sem3/1.png"
-import cseoopi from "../assets/cse-sem3/2.png"
-import csedsi from "../assets/cse-sem3/3.png"
-import csedei from "../assets/cse-sem3/4.png"
-import csecai from "../assets/cse-sem3/5.png"
-import csechi from "../assets/cse-sem3/6.png"
-import cseesi from "../assets/cse-sem3/7.png"
+import cseam3i from "../assets/images/cse-sem3/1.png"
+import cseoopi from "../assets/images/cse-sem3/2.png"
+import csedsi from "../assets/images/cse-sem3/3.png"
+import csedei from "../assets/images/cse-sem3/4.png"
+import csecai from "../assets/images/cse-sem3/5.png"
+import csechi from "../assets/images/cse-sem3/6.png"
+import cseesi from "../assets/images/cse-sem3/7.png"
 
-import itdmi from "../assets/it-sem3/1.png"
-import itoopi from "../assets/it-sem3/2.png"
-import itdsi from "../assets/it-sem3/3.png"
-import itdei from "../assets/it-sem3/4.png"
-import itcai from "../assets/it-sem3/5.png"
-import itchi from "../assets/it-sem3/6.png"
-import itlmi from "../assets/it-sem3/7.png"
+import itdmi from "../assets/images/it-sem3/1.png"
+import itoopi from "../assets/images/it-sem3/2.png"
+import itdsi from "../assets/images/it-sem3/3.png"
+import itdei from "../assets/images/it-sem3/4.png"
+import itcai from "../assets/images/it-sem3/5.png"
+import itchi from "../assets/images/it-sem3/6.png"
+import itlmi from "../assets/images/it-sem3/7.png"
 
-import etcam3i from "../assets/etc-sem3/1.png"
-import etcaei from "../assets/etc-sem3/2.png"
-import etcdsi from "../assets/etc-sem3/3.png"
-import etcdei from "../assets/etc-sem3/4.png"
-import etcnai from "../assets/etc-sem3/5.png"
-import etcswi from "../assets/etc-sem3/6.png"
-import etccsi from "../assets/etc-sem3/7.png"
+import etcam3i from "../assets/images/etc-sem3/1.png"
+import etcaei from "../assets/images/etc-sem3/2.png"
+import etcdsi from "../assets/images/etc-sem3/3.png"
+import etcdei from "../assets/images/etc-sem3/4.png"
+import etcnai from "../assets/images/etc-sem3/5.png"
+import etcswi from "../assets/images/etc-sem3/6.png"
+import etccsi from "../assets/images/etc-sem3/7.png"
 
-import eiam3i from "../assets/ei-sem3/1.png"
-import eiaei from "../assets/ei-sem3/2.png"
-import eidsi from "../assets/ei-sem3/3.png"
-import eidei from "../assets/ei-sem3/4.png"
-import einai from "../assets/ei-sem3/5.png"
-import eiswi from "../assets/ei-sem3/6.png"
-import eicsi from "../assets/ei-sem3/7.png"
+import eiam3i from "../assets/images/ei-sem3/1.png"
+import eiaei from "../assets/images/ei-sem3/2.png"
+import eidsi from "../assets/images/ei-sem3/3.png"
+import eidei from "../assets/images/ei-sem3/4.png"
+import einai from "../assets/images/ei-sem3/5.png"
+import eiswi from "../assets/images/ei-sem3/6.png"
+import eicsi from "../assets/images/ei-sem3/7.png"
 
-import mecham3i from "../assets/mech-sem3/1.png"
-import mechmpi from "../assets/mech-sem3/2.png"
-import mechmsi from "../assets/mech-sem3/3.png"
-import mechsomi from "../assets/mech-sem3/4.png"
-import mechati from "../assets/mech-sem3/5.png"
-import mechwi from "../assets/mech-sem3/6.png"
-import mechcsi from "../assets/mech-sem3/7.png"
+import mecham3i from "../assets/images/mech-sem3/1.png"
+import mechmpi from "../assets/images/mech-sem3/2.png"
+import mechmsi from "../assets/images/mech-sem3/3.png"
+import mechsomi from "../assets/images/mech-sem3/4.png"
+import mechati from "../assets/images/mech-sem3/5.png"
+import mechwi from "../assets/images/mech-sem3/6.png"
+import mechcsi from "../assets/images/mech-sem3/7.png"
 
-import civilam3i from "../assets/civil-sem3/1.png"
-import civilami from "../assets/civil-sem3/2.png"
-import civilsi from "../assets/civil-sem3/3.png"
-import civilcmi from "../assets/civil-sem3/4.png"
-import civilsmi from "../assets/civil-sem3/5.png"
-import civildcsi from "../assets/civil-sem3/6.png"
-import civillmi from "../assets/civil-sem3/7.png"
+import civilam3i from "../assets/images/civil-sem3/1.png"
+import civilami from "../assets/images/civil-sem3/2.png"
+import civilsi from "../assets/images/civil-sem3/3.png"
+import civilcmi from "../assets/images/civil-sem3/4.png"
+import civilsmi from "../assets/images/civil-sem3/5.png"
+import civildcsi from "../assets/images/civil-sem3/6.png"
+import civillmi from "../assets/images/civil-sem3/7.png"
 
 
-import am1Dbunit1 from "../assets/am1Db/unit1.pdf"
-import am1Dbunit2 from "../assets/am1Db/unit2.pdf"
-import am1Dbunit3 from "../assets/am1Db/unit3.pdf"
-import am1Dbunit4 from "../assets/am1Db/unit4.pdf"
-import am1Dbunit5 from "../assets/am1Db/unit5.pdf"
+// import am1Dbunit1 from "../assets/am1Db/unit1.pdf"
+// import am1Dbunit2 from "../assets/am1Db/unit2.pdf"
+// import am1Dbunit3 from "../assets/am1Db/unit3.pdf"
+// import am1Dbunit4 from "../assets/am1Db/unit4.pdf"
+// import am1Dbunit5 from "../assets/am1Db/unit5.pdf"
+
+// import am1Saunit1 from "../assets/am1Sa/unit1.pdf"
+// import am1Saunit2 from "../assets/am1Sa/unit2.pdf"
+// import am1Saunit3 from "../assets/am1Sa/unit3.pdf"
+// import am1Saunit4 from "../assets/am1Sa/unit4.pdf"
+// import am1Saunit5 from "../assets/am1Sa/unit5.pdf"
+
+// import am2Ccunit1 from "../assets/am2Cc/unit1.pdf"
+// import am2Ccunit2 from "../assets/am2Cc/unit2.pdf"
+// import am2Ccunit3 from "../assets/am2Cc/unit3.pdf"
+// import am2Ccunit4 from "../assets/am2Cc/unit4.pdf"
+// import am2Ccunit5 from "../assets/am2Cc/unit5.pdf"
+
+// import apRgunit1 from "../assets/apRg/unit1.pdf"
+// import apRgunit2 from "../assets/apRg/unit2.pdf"
+// import apRgunit3 from "../assets/apRg/unit3.pdf"
+// import apRgunit4 from "../assets/apRg/unit4.pdf"
+// import apRgunit5 from "../assets/apRg/unit5.pdf"
+
+// import beAgunit1 from "../assets/beAg/unit1.pdf"
+// import beAgunit2 from "../assets/beAg/unit2.pdf"
+
+// import beGunit1 from "../assets/beG/unit1.pdf"
+// import beGunit2 from "../assets/beG/unit2.pdf"
+// import beGunit3 from "../assets/beG/unit3.pdf"
+// import beGunit4 from "../assets/beG/unit4.pdf"
+// import beGunit5 from "../assets/beG/unit5.pdf"
+
 
 
 
@@ -79,7 +107,7 @@ const year1Batch1Array = [
     subCode: "1MERC3",
     subName: "Elements of Mechanical engg.",
     src: emei,
-    teachers:["Jyoti Soni","Ibrahim Hussain","Nagenfra Sohani", "Santosh Kansal"],
+    teachers:["Jyoti Soni","Ibrahim Hussain","Nagendra Sohani", "Santosh Kansal"],
 
   },
   {
@@ -153,9 +181,9 @@ const year1Batch2Array = [{
  * year1 teachers
 */
 
-const am1DbArray =[am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
-const am1AkArray =[am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
-const am1SaArray = [am1Dbunit1,am1Dbunit2,am1Dbunit3,am1Dbunit4,am1Dbunit5]
+const am1DbArray =["src/assets/am1Db/unit1.pdf","src/assets/am1Db/unit2.pdf","src/assets/am1Db/unit3.pdf","src/assets/am1Db/unit4.pdf","src/assets/am1Db/unit5.pdf"]
+const am1AkArray =["src/assets/am1Ak/unit1.pdf","src/assets/am1Ak/unit2.pdf","src/assets/am1Ak/unit3.pdf","src/assets/am1Ak/unit4.pdf","src/assets/am1Ak/unit5.pdf"]
+const am1SaArray = ["src/assets/am1Sa/unit1.pdf","src/assets/am1Sa/unit2.pdf","src/assets/am1Sa/unit3.pdf","src/assets/am1Sa/unit4.pdf","src/assets/am1Sa/unit5.pdf"]
 
 
 const am1Array = [
@@ -190,8 +218,10 @@ const am1Array = [
 /**
  * basic electronics
  */
-const beAjArray =[beAjunit1,beAjunit2,beAjunit3,beAjunit4,beAjunit5]
-const beAgArray =[beAgunit1,beAgunit2,beAgunit3,beAgunit4,beAgunit5]
+const beAjArray =["src/assets/beAj/unit1.pdf","src/assets/beAj/unit2.pdf","src/assets/beAj/unit3.pdf","src/assets/beAj/unit4.pdf","src/assets/beAj/unit5.pdf"]
+const beAgArray =["src/assets/beAg/unit1.pdf","src/assets/beAg/unit2.pdf","src/assets/beAg/unit3.pdf","src/assets/beAg/unit4.pdf","src/assets/beAg/unit5.pdf"]
+const beSbArray =["src/assets/beSb/unit1.pdf","src/assets/beSb/unit2.pdf","src/assets/beSb/unit3.pdf","src/assets/beSb/unit4.pdf","src/assets/beSb/unit5.pdf"]
+const beGArray =["src/assets/beG/unit1.pdf","src/assets/beG/unit2.pdf","src/assets/beG/unit3.pdf","src/assets/beG/unit4.pdf","src/assets/beG/unit5.pdf"]
 
 const beArray = [
   {
@@ -225,8 +255,8 @@ const beArray = [
  * Chemistry
  */
 
-const cDmArray = [cDmunit1,cDmunit2,cDmunit3,cDmunit4,cDmunit5]
-const cJsArray = [cJsunit1,cJsunit2,cJsunit3,cJsunit4,cJsunit5]
+const cDmArray = ["src/assets/cDm/unit1.pdf","src/assets/cDm/unit2.pdf","src/assets/cDm/unit3.pdf","src/assets/cDm/unit4.pdf","src/assets/cDm/unit5.pdf"]
+const cJsArray = ["src/assets/cJs/unit1.pdf","src/assets/cJs/unit2.pdf","src/assets/cJs/unit3.pdf","src/assets/cJs/unit4.pdf","src/assets/cJs/unit5.pdf"]
 
 const cArray = [
   {
@@ -259,7 +289,7 @@ const cArray = [
 /**
  * Technical English
  */
-const eRsArray = [eRsunit1,eRsunit2,eRsunit3,eRsunit4,eRsunit5]
+const eRsArray = ["src/assets/eRs/unit1.pdf","src/assets/eRs/unit2.pdf","src/assets/eRs/unit3.pdf","src/assets/eRs/unit4.pdf","src/assets/eRs/unit5.pdf"]
 const eArray = [
   {
     unit:1,
@@ -291,10 +321,10 @@ const eArray = [
 /**
  * EME
  */
-const emeIhArray = [emeIhunit1,emeIhunit2,emeIhunit3]
-const emeJsArray = [emeJsunit4,emeJsunit5]
-const emeNsArray = [emeNsunit1,emeNsunit2,emeNsuniNs, emeNsunit4,emeNsunit5]
-const emeSkArray = [emeSkunit1,emeSkunit2,emeSkuniNs, emeSkunit4,emeSkunit5]
+const emeIhArray = ["src/assets/emeIh/unit1.pdf","src/assets/emeIh/unit2.pdf","src/assets/emeIh/unit3.pdf"]
+const emeJsArray = [null, null, null, "src/assets/emeJs/unit4.pdf","src/assets/emeJs/unit5.pdf"]
+const emeNsArray = ["src/assets/emeNs/unit1.pdf","src/assets/emeNs/unit2.pdf","src/assets/emeNs/unit3.pdf", "src/assets/emeNs/unit4.pdf","src/assets/emeNs/unit5.pdf"]
+const emeSkArray = ["src/assets/emeSk/unit1.pdf","src/assets/emeSk/unit2.pdf","src/assets/emeSk/unit3.pdf", "src/assets/emeSk/unit4.pdf","src/assets/emeSk/unit5.pdf"]
 
 const eme1Array = [
   {
@@ -355,12 +385,43 @@ const emeArray = [
   },
 ]
 
+/**
+ * Applied mathematics-II
+ */
+const am2CcArray = ["src/assets/am2Cc/unit1.pdf","src/assets/am2Cc/unit2.pdf","src/assets/am2Cc/unit3.pdf","src/assets/am2Cc/unit4.pdf","src/assets/am2Cc/unit5.pdf"]
+const am2Array = [
+  {
+    unit:1,
+    name:"Matrix Algebra",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"First Order Ordinary Differential Equation",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"First Order Partial Differential Equation",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Probability and Statistics",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Theory of Equation and Fuzzy sets",
+    yt:"#",
+  },
+]
 
 /**
  * Applied Physics
  */
-const apRgArray = [apRgunit1,apRgunit2,apRgunit3,apRgunit4,apRgunit5]
-const apSkArray = [apSkunit1,apSkunit2,apSkunit3,apSkunit4,apSkunit5]
+const apRgArray = ["src/assets/apRg/unit1.pdf","src/assets/apRg/unit2.pdf","src/assets/apRg/unit3.pdf","src/assets/apRg/unit4.pdf","src/assets/apRg/unit5.pdf"]
+const apSkArray = ["src/assets/apSk/unit1.pdf","src/assets/apSk/unit2.pdf","src/assets/apSk/unit3.pdf","src/assets/apSk/unit4.pdf","src/assets/apSk/unit5.pdf"]
 
 const apArray = [
   {
@@ -393,8 +454,8 @@ const apArray = [
 /**
  * Humanities
  */
-const hAsArray = [hAsunit1,hAsunit2,hAsunit3,hAsunit4,hAsunit5]
-const hAaArray = [hAaunit1,hAaunit2,hAaunit3,hAaunit4,hAaunit5]
+const hAsArray = ["src/assets/hAs/unit1.pdf","src/assets/hAs/unit2.pdf","src/assets/hAs/unit3.pdf","src/assets/hAs/unit4.pdf","src/assets/hAs/unit5.pdf"]
+const hAaArray = ["src/assets/hAa/unit1.pdf","src/assets/hAa/unit2.pdf","src/assets/hAa/unit3.pdf","src/assets/hAa/unit4.pdf","src/assets/hAa/unit5.pdf"]
 
 const hArray = [
   {
@@ -427,7 +488,7 @@ const hArray = [
 /**
  * Engineering Drawing
  */
-const edOjArray = [edOjunit1,edOjunit2,edOjunit3,edOjunit4,edOjunit5]
+const edOjArray = ["src/assets/edOj/unit1.pdf","src/assets/edOj/unit2.pdf","src/assets/edOj/unit3.pdf","src/assets/edOj/unit4.pdf","src/assets/edOj/unit5.pdf"]
 // const edOjArray = [hAaunit1,hAaunit2,hAaunit3,hAaunit4,hAaunit5]
 
 const edArray = [
@@ -461,10 +522,10 @@ const edArray = [
 /**
  * Electical Engineering
  */
-const eeAvArray = [eeAvunit1,eeAvunit2,eeAvunit3,eeAvunit4,eeAvunit5]
-const eeSpArray = [eeSpunit1,eeSpunit2,eeSpunit3,eeSpunit4,eeSpunit5]
-const eeTsArray = [eeTsunit1,eeTsunit2,eeTsunit3,eeTsunit4,eeTsunit5]
-const eeNArray = [eeNunit1,eeNunit2,eeNunit3,eeNunit4,eeNunit5]
+const eeAvArray = ["src/assets/eeAv/unit1.pdf","src/assets/eeAv/unit2.pdf","src/assets/eeAv/unit3.pdf","src/assets/eeAv/unit4.pdf","src/assets/eeAv/unit5.pdf"]
+const eeSpArray = ["src/assets/eeSp/unit1.pdf","src/assets/eeSp/unit2.pdf","src/assets/eeSp/unit3.pdf","src/assets/eeSp/unit4.pdf","src/assets/eeSp/unit5.pdf"]
+const eeTsArray = ["src/assets/eeTs/unit1.pdf","src/assets/eeTs/unit2.pdf","src/assets/eeTs/unit3.pdf","src/assets/eeTs/unit4.pdf","src/assets/eeTs/unit5.pdf"]
+const eeNArray = ["src/assets/eeN/unit1.pdf","src/assets/eeN/unit2.pdf","src/assets/eeN/unit3.pdf","src/assets/eeN/unit4.pdf","src/assets/eeN/unit5.pdf"]
 
 const eeArray = [
   {
@@ -498,8 +559,8 @@ const eeArray = [
 /**
  * Computer Programing basic
  */
-const cpNcArray = [cpNcunit1,cpNcunit2,cpNcunit3,cpNcunit4,cpNcunit5]
-const cpMpArray = [cpMpunit1,cpMpunit2,cpMpunit3,cpMpunit4,cpMpunit5]
+const cpNcArray = ["src/assets/cpNc/unit1.pdf","src/assets/cpNc/unit2.pdf","src/assets/cpNc/unit3.pdf","src/assets/cpNc/unit4.pdf","src/assets/cpNc/unit5.pdf"]
+const cpMpArray = ["src/assets/cpMp/unit1.pdf","src/assets/cpMp/unit2.pdf","src/assets/cpMp/unit3.pdf","src/assets/cpMp/unit4.pdf","src/assets/cpMp/unit5.pdf"]
 
 const cpArray = [
   {
@@ -871,4 +932,4 @@ const year2CivilBatch1Array = [
  ]
 
 export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
-year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray }
+year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray  }

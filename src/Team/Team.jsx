@@ -5,7 +5,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import abhay1 from "/textures/teamImages/abhay.jpg"
 import vishali from "/textures/teamImages/vishali.jpeg"
-import pranshui from "/textures/teamImages/pranshui.png"
+import pranshui from "/textures/teamImages/pranshu1.jpeg"
 
 const Team = () =>
 {
