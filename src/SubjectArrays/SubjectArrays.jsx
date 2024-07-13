@@ -1673,33 +1673,33 @@ const year2CivilBatch1Array = [
   const dcsScArray = ["src/assets/dcsSc/unit1.pdf","src/assets/dcsSc/unit2.pdf","src/assets/dcsSc/unit3.pdf","src/assets/dcsSc/unit4.pdf","src/assets/dcsSc/unit5.pdf"]
 
 
-  // const dcsArray = [
-  //   {
-  //     unit:1,
-  //     name:"Shear force and Bending Moment",
-  //     yt:"#",
-  //   },
-  //   {
-  //     unit:2,
-  //     name:"Stresses and Deflection in beams",
-  //     yt:"#",
-  //   },
-  //   {
-  //     unit:3,
-  //     name:"Fixed and Continuous Beams",
-  //     yt:"#",
-  //   },
-  //   {
-  //     unit:4,
-  //     name:"Columns And Struts",
-  //     yt:"#",
-  //   },
-  //   {
-  //     unit:5,
-  //     name:"Unsymmetrical Bending and Curved Beam",
-  //     yt:"#",
-  //   },
-  // ]
+  const dcsArray = [
+    {
+      unit:1,
+      name:"",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"",
+      yt:"#",
+    },
+  ]
 
 
 
@@ -1710,4 +1710,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray}
+dmArray, dmSaArray, dcsArray}
