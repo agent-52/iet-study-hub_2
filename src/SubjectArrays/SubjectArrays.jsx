@@ -590,6 +590,55 @@ const cpArray = [
   },
 ]
 
+/**
+ * first year papers
+ */
+
+//be
+const pyqBeAj = ["src/assets/pyqBeAj/2023/1.pdf", "src/assets/pyqBeAj/2023/2.pdf", "src/assets/pyqBeAj/2023/3.pdf", "src/assets/pyqBeAj/2023/endsem.pdf"]
+const pyqBeAg = ["src/assets/pyqBeAg/2023/1.pdf", "src/assets/pyqBeAg/2023/2.pdf", "src/assets/pyqBeAg/2023/3.pdf", "src/assets/pyqBeAg/2023/endsem.pdf"]
+
+//am1
+const pyqAm1Db = ["src/assets/pyqAm1Db/2023/1.pdf", "src/assets/pyqAm1Db/2023/2.pdf", "src/assets/pyqAm1Db/2023/3.pdf", "src/assets/pyqAm1Db/2023/endsem.pdf"]
+const pyqAm1Sa = ["src/assets/pyqAm1Sa/2023/1.pdf", "src/assets/pyqAm1Sa/2023/2.pdf", "src/assets/pyqAm1Sa/2023/3.pdf", "src/assets/pyqAm1Sa/2023/endsem.pdf"]
+const pyqAm1Ak = ["src/assets/pyqAm1Ak/2023/1.pdf", "src/assets/pyqAm1Ak/2023/2.pdf", "src/assets/pyqAm1Ak/2023/3.pdf", "src/assets/pyqAm1Ak/2023/endsem.pdf"]
+
+//eme
+const pyqEmeJs = ["src/assets/pyqEmeJs/2023/1.pdf", "src/assets/pyqEmeJs/2023/2.pdf", "src/assets/pyqEmeJs/2023/3.pdf", "src/assets/pyqEmeJs/2023/endsem.pdf"]
+const pyqEmeIh = ["src/assets/pyqEmeIh/2023/1.pdf", "src/assets/pyqEmeIh/2023/2.pdf", "src/assets/pyqEmeIh/2023/3.pdf", "src/assets/pyqEmeIh/2023/endsem.pdf"]
+const pyqEmeNs = ["src/assets/pyqEmeNs/2023/1.pdf", "src/assets/pyqEmeNs/2023/2.pdf", "src/assets/pyqEmeNs/2023/3.pdf", "src/assets/pyqEmeNs/2023/endsem.pdf"]
+const pyqEmeSk = ["src/assets/pyqEmeSk/2023/1.pdf", "src/assets/pyqEmeSk/2023/2.pdf", "src/assets/pyqEmeSk/2023/3.pdf", "src/assets/pyqEmeSk/2023/endsem.pdf"]
+
+//chemistry
+const pyqCDm = ["src/assets/pyqCDm/2023/1.pdf", "src/assets/pyqCDm/2023/2.pdf", "src/assets/pyqCDm/2023/3.pdf", "src/assets/pyqCDm/2023/endsem.pdf"]
+const pyqCJs = ["src/assets/pyqCJs/2023/1.pdf", "src/assets/pyqCJs/2023/2.pdf", "src/assets/pyqCJs/2023/3.pdf", "src/asset/pyqCJs/2023/endsem.pdf"]
+
+//english
+const pyqERs = ["src/assets/pyqERs/2023/1.pdf", "src/assets/pyqERs/2023/2.pdf", "src/assets/pyqERs/2023/3.pdf", "src/assets/pyqERs/2023/endsem.pdf"]
+
+//physics
+const pyqApRg = ["src/assets/pyqApRg/2023/1.pdf", "src/assets/pyqApRg/2023/2.pdf", "src/assets/pyqApRg/2023/3.pdf", "src/assets/pyqApRg/2023/endsem.pdf"]
+const pyqApSk = ["src/assets/pyqApSk/2023/1.pdf", "src/assets/pyqApSk/2023/2.pdf", "src/assets/pyqApSk/2023/3.pdf", "src/assets/pyqApSk/2023/endsem.pdf"]
+
+//humanities
+const pyqHAs = ["src/assets/pyqHAs/2023/1.pdf", "src/assets/pyqHAs/2023/2.pdf", "src/assets/pyqHAs/2023/3.pdf", "src/assets/pyqHAs/2023/endsem.pdf"]
+const pyqHAa = ["src/assets/pyqHAa/2023/1.pdf", "src/assets/pyqHAa/2023/2.pdf", "src/assets/pyqHAa/2023/3.pdf", "src/assets/pyqHAa/2023/endsem.pdf"]
+
+//ed
+const pyqEdOj = ["src/assets/pyqEdOj/2023/1.pdf", "src/assets/pyqEdOj/2023/2.pdf", "src/assets/pyqEdOj/2023/3.pdf", "src/assets/pyqEdOj/2023/endsem.pdf"]
+
+//ee
+const pyqEeAv = ["src/assets/pyqEeAv/2023/1.pdf", "src/assets/pyqEeAv/2023/2.pdf", "src/assets/pyqEeAv/2023/3.pdf", "src/assets/pyqEeAv/2023/endsem.pdf"]
+const pyqEeSp = ["src/assets/pyqEeSp/2023/1.pdf", "src/assets/pyqEeSp/2023/2.pdf", "src/assets/pyqEeSp/2023/3.pdf", "src/assets/pyqEeSp/2023/endsem.pdf"]
+const pyqEeN = ["src/assets/pyqEeN/2023/1.pdf", "src/assets/pyqEeN/2023/2.pdf", "src/assets/pyqEeN/2023/3.pdf", "src/assets/pyqEeN/2023/endsem.pdf"]
+const pyqEeTs = ["src/assets/pyqEeTs/2023/1.pdf", "src/assets/pyqEeTs/2023/2.pdf", "src/assets/pyqEeTs/2023/3.pdf", "src/assets/pyqEeTs/2023/endsem.pdf"]
+
+//cp
+const pyqCpMp = ["src/assets/pyqCpMp/2023/1.pdf", "src/assets/pyqCpMp/2023/2.pdf", "src/assets/pyqCpMp/2023/3.pdf", "src/assets/pyqCpMp/2023/endsem.pdf"]
+const pyqCpNc = ["src/assets/pyqCpNc/2023/1.pdf", "src/assets/pyqCpMNc/2023/2.pdf", "src/assets/pyqCpNc/2023/3.pdf", "src/assets/pyqCpNc/2023/endsem.pdf"]
+
+//am2
+const pyqAm2Cc = ["src/assets/pyqAm2Cc/2023/1.pdf", "src/assets/pyqAm2Cc/2023/2.pdf", "src/assets/pyqAm2Cc/2023/3.pdf", "src/assets/pyqAm2Cc/2023/endsem.pdf"]
 
 /**
  * Year2
@@ -646,8 +695,230 @@ const cpArray = [
     teachers:["Ajay Chhabriya"],
     
   },
-
  ]
+
+ /**
+  * Subject array
+  */
+
+ //am3
+const am3SaArray = ["src/assets/am3Sa/unit1.pdf","src/assets/am3Sa/unit2.pdf","src/assets/am3Sa/unit3.pdf","src/assets/am3Sa/unit4.pdf","src/assets/am3Sa/unit5.pdf"]
+
+const am3Array1 = [
+  {
+    unit:1,
+    name:"Solution of algebric equation",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Interpolation",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Correlation and regression analysis",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Testing of hypothesis",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Stochastic processes",
+    yt:"#",
+  },
+]
+
+//oop
+const oopJhArray = ["src/assets/oopJh/unit1.pdf","src/assets/oopJh/unit2.pdf","src/assets/oopJh/unit3.pdf","src/assets/oopJh/unit4.pdf","src/assets/oopJh/unit5.pdf"]
+
+const oopArray = [
+  {
+    unit:1,
+    name:"Introduction to Object Oriented Programming",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Introduction to Java classes and objects",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Inheritance and Polymorphism ",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Exception Handling and Multithreading",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Java I/O, Applets ",
+    yt:"#",
+  },
+]
+
+//ds
+const dSVjArray = ["src/assets/dSVj/unit1.pdf","src/assets/dSVj/unit2.pdf","src/assets/dSVj/unit3.pdf","src/assets/dSVj/unit4.pdf","src/assets/dSVj/unit5.pdf"]
+const dSAjArray = ["src/assets/dSAj/unit1.pdf","src/assets/dSAj/unit2.pdf","src/assets/dSAj/unit3.pdf","src/assets/dSAj/unit4.pdf","src/assets/dSAj/unit5.pdf"]
+
+const dsArray1 = [
+  {
+    unit:1,
+    name:"Arrays and List",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Stacks",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Queues and Hashing",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Trees",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Graphs",
+    yt:"#",
+  },
+]
+
+//de
+const deApArray = ["src/assets/deAp/unit1.pdf","src/assets/deAp/unit2.pdf","src/assets/deAp/unit3.pdf","src/assets/deAp/unit4.pdf","src/assets/deAp/unit5.pdf"]
+const dePsArray = ["src/assets/dePs/unit1.pdf","src/assets/dePs/unit2.pdf","src/assets/dePs/unit3.pdf","src/assets/dePs/unit4.pdf","src/assets/dePs/unit5.pdf"]
+
+const deArray1 = [
+  {
+    unit:1,
+    name:"Foundation",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Combinational Circuits",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Sequential Circuits",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Registers",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Digital to Analog Conversion ",
+    yt:"#",
+  },
+]
+
+//ca
+const caVtArray = ["src/assets/caVt/unit1.pdf","src/assets/caVt/unit2.pdf","src/assets/caVt/unit3.pdf","src/assets/caVt/unit4.pdf","src/assets/caVt/unit5.pdf"]
+
+const caArray = [
+  {
+    unit:1,
+    name:"Introduction",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Memory System",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Processing Unit",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Input Output Organization",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Pipelining & Multiprocessors",
+    yt:"#",
+  },
+]
+
+//ch
+const chVvArray = ["src/assets/chVv/unit1.pdf","src/assets/chVv/unit2.pdf","src/assets/chVv/unit3.pdf","src/assets/chVv/unit4.pdf","src/assets/chVv/unit5.pdf"]
+
+const chArray = [
+  {
+    unit:1,
+    name:"Central Processing Unit",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Internal Components",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Computer Peripherals",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Assembling and Installation",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"IOT Practical",
+    yt:"#",
+  },
+]
+
+//es
+const esAcArray = ["src/assets/esAc/unit1.pdf","src/assets/esAc/unit2.pdf","src/assets/esAc/unit3.pdf","src/assets/esAc/unit4.pdf","src/assets/esAc/unit5.pdf"]
+
+const esArray = [
+  {
+    unit:1,
+    name:"Introduction",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Classification of E-Waste",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Legal Framework",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"The Global Impact of E-waste",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Recycling From E-waste to Resources",
+    yt:"#",
+  },
+]
 
  const year2CseBatch2Array = [
   
@@ -709,6 +980,73 @@ const year2ItBatch1Array = [
 
  ]
 
+ /**
+  * subjects array
+  */
+ //dm
+ const dmSaArray = ["src/assets/dmSa/unit1.pdf","src/assets/dmSa/unit2.pdf","src/assets/dmSa/unit3.pdf","src/assets/dmSa/unit4.pdf","src/assets/dmSa/unit5.pdf"]
+
+  const dmArray = [
+    {
+      unit:1,
+      name:"Sets Functions",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Propositional Logic",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Mathematical Induction, Act",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Graph Theory",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Boolean Algebra",
+      yt:"#",
+    },
+  ]
+
+  //lm
+  const lmKlArray = ["src/assets/lmKl/unit1.pdf","src/assets/lmKl/unit2.pdf","src/assets/lmKl/unit3.pdf","src/assets/lmKl/unit4.pdf","src/assets/lmKl/unit5.pdf"]
+
+  const lmArray = [
+    {
+      unit:1,
+      name:"Basics of Life Skills Management:",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Managing Habits",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Relationship Management",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Stress Managemen",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Mental Health and Wellness",
+      yt:"#",
+    },
+  ]
+
+
+
  const year2ItBatch2Array = [
   
  ]
@@ -766,6 +1104,236 @@ const year2EtcBatch1Array = [
   },
 
  ]
+ /**
+  * subject array
+  */
+ //am3
+  const am3PsArray = ["src/assets/am3Ps/unit1.pdf","src/assets/am3Ps/unit2.pdf","src/assets/am3Ps/unit3.pdf","src/assets/am3Ps/unit4.pdf","src/assets/am3Ps/unit5.pdf"]
+
+  const am3Array2 = [
+    {
+      unit:1,
+      name:"Function of Complex variables",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Random variables",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Interpolation",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"olutions of algebraic equations",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Fourier series",
+      yt:"#",
+    },
+  ]
+
+  //ds
+const dSVfArray = ["src/assets/dSVf/unit1.pdf","src/assets/dSVf/unit2.pdf","src/assets/dSVf/unit3.pdf","src/assets/dSVf/unit4.pdf","src/assets/dSVf/unit5.pdf"]
+// const dSAjArray = ["src/assets/dSAj/unit1.pdf","src/assets/dSAj/unit2.pdf","src/assets/dSAj/unit3.pdf","src/assets/dSAj/unit4.pdf","src/assets/dSAj/unit5.pdf"]
+
+const dsArray2 = [
+  {
+    unit:1,
+    name:"Data Structure and Arrays",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Stack and Sorting",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"List and Queues",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Hashing and Trees",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Graphs",
+    yt:"#",
+  },
+]
+
+//de
+const deStArray = ["src/assets/deSt/unit1.pdf","src/assets/deSt/unit2.pdf","src/assets/deSt/unit3.pdf","src/assets/deSt/unit4.pdf","src/assets/deSt/unit5.pdf"]
+
+
+const deArray2 = [
+  {
+    unit:1,
+    name:"Foundation",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Combinational Circuits",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Sequential Circuits",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Digital to Analog Conversion ",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Introduction to VHDL",
+    yt:"#",
+  },
+]
+
+//ae
+const aeSkArray = ["src/assets/aeSk/unit1.pdf","src/assets/aeSk/unit2.pdf","src/assets/aeSk/unit3.pdf","src/assets/aeSk/unit4.pdf","src/assets/aeSk/unit5.pdf"]
+const aeGkArray = ["src/assets/aeGk/unit1.pdf","src/assets/aeGk/unit2.pdf","src/assets/aeGk/unit3.pdf","src/assets/aeGk/unit4.pdf","src/assets/aeGk/unit5.pdf"]
+
+const aeArray = [
+  {
+    unit:1,
+    name:"BJT",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Transistors, JFETs",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Transistor at high frequencies",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Feedback in amplifiers",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Coupling in amplifier",
+    yt:"#",
+  },
+]
+
+//na
+const naAvArray = ["src/assets/naAv/unit1.pdf","src/assets/naAv/unit2.pdf","src/assets/naAv/unit3.pdf","src/assets/naAv/unit4.pdf","src/assets/naAv/unit5.pdf"]
+const naDnArray = ["src/assets/naDn/unit1.pdf","src/assets/naDn/unit2.pdf","src/assets/naDn/unit3.pdf","src/assets/naDn/unit4.pdf","src/assets/naDn/unit5.pdf"]
+
+const naArray = [
+  {
+    unit:1,
+    name:"Circuit fundamental ",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Time domain analysis of circuits",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Two Port Networks",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Laplace Transforms and Fourier analysis",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Network Synthesis",
+    yt:"#",
+  },
+]
+
+//sw1
+const sw1MjArray = ["src/assets/sw1Mj/unit1.pdf","src/assets/sw1Mj/unit2.pdf","src/assets/sw1Mj/unit3.pdf","src/assets/sw1Mj/unit4.pdf","src/assets/sw1Mj/unit5.pdf"]
+
+
+const sw1Array = [
+  {
+    unit:1,
+    name:"MATLAB",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Simulink",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Image Processing",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Machine learning",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Project",
+    yt:"#",
+  },
+]
+
+//cs
+const csVfArray = ["src/assets/csVf/unit1.pdf","src/assets/csVf/unit2.pdf","src/assets/csVf/unit3.pdf","src/assets/csVf/unit4.pdf","src/assets/csVf/unit5.pdf"]
+
+
+const csArray = [
+  {
+    unit:1,
+    name:"Fundamentals of Communicatio",
+    yt:"#",
+  },
+  {
+    unit:2,
+    name:"Inter-personal skills",
+    yt:"#",
+  },
+  {
+    unit:3,
+    name:"Fundamentals of public Speaking",
+    yt:"#",
+  },
+  {
+    unit:4,
+    name:"Interviews",
+    yt:"#",
+  },
+  {
+    unit:5,
+    name:"Making Presentations",
+    yt:"#",
+  },
+]
+
+
+
+
+
 
 //year2 ei
  const year2EiBatch1Array = [
@@ -932,4 +1500,6 @@ const year2CivilBatch1Array = [
  ]
 
 export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
-year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray  }
+year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
+pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
+ }

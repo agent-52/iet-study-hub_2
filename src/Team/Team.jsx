@@ -174,9 +174,9 @@ const Team = () =>
 
             // Animate camera
 
-            const parallaxX = cursor.x * 0.5
+            const parallaxX = cursor.x * 0.7
             const parallaxY = - cursor.y * 0.3
-            cameraGroup.position.x += (parallaxX - cameraGroup.position.x) * 2 * deltaTime
+            cameraGroup.position.x += (parallaxX - cameraGroup.position.x) * 3 * deltaTime
             cameraGroup.position.y += (parallaxY - cameraGroup.position.y) * 0.7* deltaTime
             // camera1.position.x += (parallaxX - camera.position.x) * 3 * deltaTime
             // camera1.position.y += (parallaxY - camera.position.y) * 0.5* deltaTime
