@@ -9,8 +9,7 @@ const ErrorPage = () =>
       <Header/>
       <div className=" flexC gap4 alignC">
       <div className="text-medium text-center flexC gap2 ">
-        <div>Sorry!</div>
-        <div className="text-medium1">Currently we only support year1 and year2 only</div>
+        <div>Coming Soon!</div>
         <div className="text-medium1">you may see this page in following cases :</div>
         <div className="text-sm1 flexC gap1">
           <div><span className="text-slate-11">01.</span> Clicked on a link that has not been assigned yet. we are arranging content as of now and some content may be missing ( it will be there before your exams ) </div>

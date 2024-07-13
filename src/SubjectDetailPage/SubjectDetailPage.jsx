@@ -49,7 +49,7 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
       
         {pyqYearArray.map((year) =>{
           return( 
-            <div className="flexC alignC gap1 text-sm1" key={year}> 
+            <div className="flexC alignC gap1 text-sm1 noWrap mgB1" key={year} > 
               <div className="unitBlock">
                 <div>Mst-1</div>
                 <div>{year}</div>
