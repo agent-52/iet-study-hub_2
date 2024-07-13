@@ -703,6 +703,7 @@ const pyqAm2Cc = ["src/assets/pyqAm2Cc/2023/1.pdf", "src/assets/pyqAm2Cc/2023/2.
 
  //am3
 const am3SaArray = ["src/assets/am3Sa/unit1.pdf","src/assets/am3Sa/unit2.pdf","src/assets/am3Sa/unit3.pdf","src/assets/am3Sa/unit4.pdf","src/assets/am3Sa/unit5.pdf"]
+const am3AbArray = ["src/assets/am3Ab/unit1.pdf","src/assets/am3Ab/unit2.pdf","src/assets/am3Ab/unit3.pdf","src/assets/am3Ab/unit4.pdf","src/assets/am3Ab/unit5.pdf"]
 
 const am3Array1 = [
   {
@@ -734,6 +735,7 @@ const am3Array1 = [
 
 //oop
 const oopJhArray = ["src/assets/oopJh/unit1.pdf","src/assets/oopJh/unit2.pdf","src/assets/oopJh/unit3.pdf","src/assets/oopJh/unit4.pdf","src/assets/oopJh/unit5.pdf"]
+const oopAmArray = ["src/assets/oopAm/unit1.pdf","src/assets/oopAm/unit2.pdf","src/assets/oopAm/unit3.pdf","src/assets/oopAm/unit4.pdf","src/assets/oopAm/unit5.pdf"]
 
 const oopArray = [
   {
@@ -764,8 +766,9 @@ const oopArray = [
 ]
 
 //ds
-const dSVjArray = ["src/assets/dSVj/unit1.pdf","src/assets/dSVj/unit2.pdf","src/assets/dSVj/unit3.pdf","src/assets/dSVj/unit4.pdf","src/assets/dSVj/unit5.pdf"]
-const dSAjArray = ["src/assets/dSAj/unit1.pdf","src/assets/dSAj/unit2.pdf","src/assets/dSAj/unit3.pdf","src/assets/dSAj/unit4.pdf","src/assets/dSAj/unit5.pdf"]
+const dsVjArray = ["src/assets/dsVj/unit1.pdf","src/assets/dsVj/unit2.pdf","src/assets/dsVj/unit3.pdf","src/assets/dsVj/unit4.pdf","src/assets/dSVj/unit5.pdf"]
+const dsAjArray = ["src/assets/dsAj/unit1.pdf","src/assets/dsAj/unit2.pdf","src/assets/dsAj/unit3.pdf","src/assets/dsAj/unit4.pdf","src/assets/dSAj/unit5.pdf"]
+const dsPkArray = ["src/assets/dsPk/unit1.pdf","src/assets/dsPk/unit2.pdf","src/assets/dsPk/unit3.pdf","src/assets/dsPk/unit4.pdf","src/assets/dsPk/unit5.pdf"]
 
 const dsArray1 = [
   {
@@ -798,6 +801,7 @@ const dsArray1 = [
 //de
 const deApArray = ["src/assets/deAp/unit1.pdf","src/assets/deAp/unit2.pdf","src/assets/deAp/unit3.pdf","src/assets/deAp/unit4.pdf","src/assets/deAp/unit5.pdf"]
 const dePsArray = ["src/assets/dePs/unit1.pdf","src/assets/dePs/unit2.pdf","src/assets/dePs/unit3.pdf","src/assets/dePs/unit4.pdf","src/assets/dePs/unit5.pdf"]
+const deSmArray = ["src/assets/deSm/unit1.pdf","src/assets/deSm/unit2.pdf","src/assets/deSm/unit3.pdf","src/assets/deSm/unit4.pdf","src/assets/deSm/unit5.pdf"]
 
 const deArray1 = [
   {
@@ -829,6 +833,7 @@ const deArray1 = [
 
 //ca
 const caVtArray = ["src/assets/caVt/unit1.pdf","src/assets/caVt/unit2.pdf","src/assets/caVt/unit3.pdf","src/assets/caVt/unit4.pdf","src/assets/caVt/unit5.pdf"]
+const caCpArray = ["src/assets/caCp/unit1.pdf","src/assets/caCp/unit2.pdf","src/assets/caCp/unit3.pdf","src/assets/caCp/unit4.pdf","src/assets/caCp/unit5.pdf"]
 
 const caArray = [
   {
@@ -860,6 +865,7 @@ const caArray = [
 
 //ch
 const chVvArray = ["src/assets/chVv/unit1.pdf","src/assets/chVv/unit2.pdf","src/assets/chVv/unit3.pdf","src/assets/chVv/unit4.pdf","src/assets/chVv/unit5.pdf"]
+const chCpArray = ["src/assets/chCp/unit1.pdf","src/assets/chCp/unit2.pdf","src/assets/chCp/unit3.pdf","src/assets/chCp/unit4.pdf","src/assets/chCp/unit5.pdf"]
 
 const chArray = [
   {
@@ -1139,8 +1145,8 @@ const year2EtcBatch1Array = [
   ]
 
   //ds
-const dSVfArray = ["src/assets/dSVf/unit1.pdf","src/assets/dSVf/unit2.pdf","src/assets/dSVf/unit3.pdf","src/assets/dSVf/unit4.pdf","src/assets/dSVf/unit5.pdf"]
-// const dSAjArray = ["src/assets/dSAj/unit1.pdf","src/assets/dSAj/unit2.pdf","src/assets/dSAj/unit3.pdf","src/assets/dSAj/unit4.pdf","src/assets/dSAj/unit5.pdf"]
+const dsVfArray = ["src/assets/dSVf/unit1.pdf","src/assets/dSVf/unit2.pdf","src/assets/dSVf/unit3.pdf","src/assets/dSVf/unit4.pdf","src/assets/dSVf/unit5.pdf"]
+const dsHpArray = ["src/assets/dSHp/unit1.pdf","src/assets/dSHp/unit2.pdf","src/assets/dSHp/unit3.pdf","src/assets/dSHp/unit4.pdf","src/assets/dSHp/unit5.pdf"]
 
 const dsArray2 = [
   {
@@ -1172,7 +1178,7 @@ const dsArray2 = [
 
 //de
 const deStArray = ["src/assets/deSt/unit1.pdf","src/assets/deSt/unit2.pdf","src/assets/deSt/unit3.pdf","src/assets/deSt/unit4.pdf","src/assets/deSt/unit5.pdf"]
-
+const deSbArray = ["src/assets/deSb/unit1.pdf","src/assets/deSb/unit2.pdf","src/assets/deSb/unit3.pdf","src/assets/deSb/unit4.pdf","src/assets/deSb/unit5.pdf"]
 
 const deArray2 = [
   {
@@ -1205,6 +1211,7 @@ const deArray2 = [
 //ae
 const aeSkArray = ["src/assets/aeSk/unit1.pdf","src/assets/aeSk/unit2.pdf","src/assets/aeSk/unit3.pdf","src/assets/aeSk/unit4.pdf","src/assets/aeSk/unit5.pdf"]
 const aeGkArray = ["src/assets/aeGk/unit1.pdf","src/assets/aeGk/unit2.pdf","src/assets/aeGk/unit3.pdf","src/assets/aeGk/unit4.pdf","src/assets/aeGk/unit5.pdf"]
+const aeSpArray = ["src/assets/aeSp/unit1.pdf","src/assets/aeSp/unit2.pdf","src/assets/aeSp/unit3.pdf","src/assets/aeSp/unit4.pdf","src/assets/aeSp/unit5.pdf"]
 
 const aeArray = [
   {
@@ -1268,7 +1275,7 @@ const naArray = [
 
 //sw1
 const sw1MjArray = ["src/assets/sw1Mj/unit1.pdf","src/assets/sw1Mj/unit2.pdf","src/assets/sw1Mj/unit3.pdf","src/assets/sw1Mj/unit4.pdf","src/assets/sw1Mj/unit5.pdf"]
-
+const sw1SsArray = ["src/assets/sw1Ss/unit1.pdf","src/assets/sw1Ss/unit2.pdf","src/assets/sw1Ss/unit3.pdf","src/assets/sw1Ss/unit4.pdf","src/assets/sw1Ss/unit5.pdf"]
 
 const sw1Array = [
   {
@@ -1486,7 +1493,7 @@ const year2CivilBatch1Array = [
     subName: "Drafting & Computational Skills",
     subCode: "VLR3L1",
     src: civildcsi,
-    teachers:["DSangeeta Chouhan"],
+    teachers:["Sangeeta Chouhan"],
     
   },
   {
@@ -1499,7 +1506,208 @@ const year2CivilBatch1Array = [
 
  ]
 
+ /**
+  * subject arrays
+  */
+ //am3
+  const am3VfArray = ["src/assets/am3Vf/unit1.pdf","src/assets/am3Vf/unit2.pdf","src/assets/am3Vf/unit3.pdf","src/assets/am3Vf/unit4.pdf","src/assets/am3Vf/unit5.pdf"]
+
+
+  const am3Array3 = [
+    {
+      unit:1,
+      name:"Laplace transform",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Statistics",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Numerical solutions of equations",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Interpolation",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Fourier series",
+      yt:"#",
+    },
+  ]
+
+  //som
+  const somGpArray = ["src/assets/somGp/unit1.pdf","src/assets/somGp/unit2.pdf","src/assets/somGp/unit3.pdf","src/assets/somGp/unit4.pdf","src/assets/somGp/unit5.pdf"]
+
+
+  const somArray = [
+    {
+      unit:1,
+      name:"Geometrical Properties of Sections",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Analysis of Trusses",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Simple Stress and Strain",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:" Principal Stresses and Principal Strains",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Strain Energy",
+      yt:"#",
+    },
+  ]
+
+  //surveying
+  const sSmArray = ["src/assets/sSm/unit1.pdf","src/assets/sSm/unit2.pdf","src/assets/sSm/unit3.pdf","src/assets/sSm/unit4.pdf","src/assets/sSm/unit5.pdf"]
+
+
+  const sArray = [
+    {
+      unit:1,
+      name:"Introduction to Surveying",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Vertical Measurement",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Angular measurements",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Measurement of Area",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Measurement of Volume",
+      yt:"#",
+    },
+  ]
+
+  //construction material
+  const cmPtArray = ["src/assets/cmPt/unit1.pdf","src/assets/cmPt/unit2.pdf","src/assets/cmPt/unit3.pdf","src/assets/cmPt/unit4.pdf","src/assets/cmPt/unit5.pdf"]
+
+
+  const cmArray = [
+    {
+      unit:1,
+      name:"Lime Mortars Bricks",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Glass Timber Veneers",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Concrete Materials Aggregates",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Paints, Enamels and Varnishes",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Foundations Doors and Windows",
+      yt:"#",
+    },
+  ]
+
+  //structural mechanics
+  const smGvArray = ["src/assets/smGv/unit1.pdf","src/assets/smGv/unit2.pdf","src/assets/smGv/unit3.pdf","src/assets/smGv/unit4.pdf","src/assets/smGv/unit5.pdf"]
+
+
+  const smArray = [
+    {
+      unit:1,
+      name:"Shear force and Bending Moment",
+      yt:"#",
+    },
+    {
+      unit:2,
+      name:"Stresses and Deflection in beams",
+      yt:"#",
+    },
+    {
+      unit:3,
+      name:"Fixed and Continuous Beams",
+      yt:"#",
+    },
+    {
+      unit:4,
+      name:"Columns And Struts",
+      yt:"#",
+    },
+    {
+      unit:5,
+      name:"Unsymmetrical Bending and Curved Beam",
+      yt:"#",
+    },
+  ]
+
+  //drafting and computational skill
+  const dcsScArray = ["src/assets/dcsSc/unit1.pdf","src/assets/dcsSc/unit2.pdf","src/assets/dcsSc/unit3.pdf","src/assets/dcsSc/unit4.pdf","src/assets/dcsSc/unit5.pdf"]
+
+
+  // const dcsArray = [
+  //   {
+  //     unit:1,
+  //     name:"Shear force and Bending Moment",
+  //     yt:"#",
+  //   },
+  //   {
+  //     unit:2,
+  //     name:"Stresses and Deflection in beams",
+  //     yt:"#",
+  //   },
+  //   {
+  //     unit:3,
+  //     name:"Fixed and Continuous Beams",
+  //     yt:"#",
+  //   },
+  //   {
+  //     unit:4,
+  //     name:"Columns And Struts",
+  //     yt:"#",
+  //   },
+  //   {
+  //     unit:5,
+  //     name:"Unsymmetrical Bending and Curved Beam",
+  //     yt:"#",
+  //   },
+  // ]
+
+
+
 export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
 year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
 pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
- }
+ am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsVfArray, dsPkArray, 
+deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
+aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
+somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
+dmArray, dmSaArray}
