@@ -1709,6 +1709,82 @@ const year2CivilBatch1Array = [
     },
   ]
 
+/**
+ * 3rd sem pyq
+ */
+
+//am3
+const pyqAm3Sa = ["src/assets/pyqAm3Sa/2023/1.pdf", "src/assets/pyqAm3Sa/2023/2.pdf", "src/assets/pyqAm3Sa/2023/3.pdf", "src/assets/pyqAm3Sa/2023/endsem.pdf"]
+const pyqAm3Ab = ["src/assets/pyqAm3Ab/2023/1.pdf", "src/assets/pyqAm3Ab/2023/2.pdf", "src/assets/pyqBeAb/2023/3.pdf", "src/assets/pyqBeAb/2023/endsem.pdf"]
+const pyqAm3Ps = ["src/assets/pyqAm3Ps/2023/1.pdf", "src/assets/pyqAm3Ps/2023/2.pdf", "src/assets/pyqAm3Ps/2023/3.pdf", "src/assets/pyqAm3Ps/2023/endsem.pdf"]
+
+//oop
+const pyqOopJh = ["src/assets/pyqOopJh/2023/1.pdf", "src/assets/pyqOopJh/2023/2.pdf", "src/assets/pyqOopJh/2023/3.pdf", "src/assets/pyqOopJh/2023/endsem.pdf"]
+const pyqOopAm = ["src/assets/pyqOopAm/2023/1.pdf", "src/assets/pyqOopAm/2023/2.pdf", "src/assets/pyqOopAm/2023/3.pdf", "src/assets/pyqOopAm/2023/endsem.pdf"]
+
+//ds
+const pyqDsVj = ["src/assets/pyqDsVj/2023/1.pdf", "src/assets/pyqDsVj/2023/2.pdf", "src/assets/pyqDsVj/2023/3.pdf", "src/assets/pyqDsVj/2023/endsem.pdf"]
+const pyqDsAj = ["src/assets/pyqDsAj/2023/1.pdf", "src/assets/pyqDsAj/2023/2.pdf", "src/assets/pyqDsAj/2023/3.pdf", "src/assets/pyqDsAj/2023/endsem.pdf"]
+const pyqDsPk = ["src/assets/pyqDsPk/2023/1.pdf", "src/assets/pyqDsPk/2023/2.pdf", "src/assets/pyqDsPk/2023/3.pdf", "src/assets/pyqDsPk/2023/endsem.pdf"]
+const pyqDsHp = ["src/assets/pyqDsHp/2023/1.pdf", "src/assets/pyqDsHp/2023/2.pdf", "src/assets/pyqDsHp/2023/3.pdf", "src/assets/pyqDsHp/2023/endsem.pdf"]
+
+//de
+const pyqDeAp = ["src/assets/pyqDeAp/2023/1.pdf", "src/assets/pyqDeAp/2023/2.pdf", "src/assets/pyqDeAp/2023/3.pdf", "src/assets/pyqDeAp/2023/endsem.pdf"]
+const pyqDePs = ["src/assets/pyqDePs/2023/1.pdf", "src/assets/pyqDePs/2023/2.pdf", "src/assets/pyqDePs/2023/3.pdf", "src/assets/pyqDePs/2023/endsem.pdf"]
+const pyqDeSm = ["src/assets/pyqDeSm/2023/1.pdf", "src/assets/pyqDeSm/2023/2.pdf", "src/assets/pyqDeSm/2023/3.pdf", "src/assets/pyqDeSm/2023/endsem.pdf"]
+const pyqDeSt = ["src/assets/pyqDeSt/2023/1.pdf", "src/assets/pyqDeSt/2023/2.pdf", "src/assets/pyqDeSt/2023/3.pdf", "src/assets/pyqDeSt/2023/endsem.pdf"]
+const pyqDeSb = ["src/assets/pyqDeSb/2023/1.pdf", "src/assets/pyqDeSb/2023/2.pdf", "src/assets/pyqDeSb/2023/3.pdf", "src/assets/pyqDeSb/2023/endsem.pdf"]
+
+//ca
+const pyqCaVt = ["src/assets/pyqCaVt/2023/1.pdf", "src/assets/pyqCaVt/2023/2.pdf", "src/assets/pyqCaVt/2023/3.pdf", "src/assets/pyqCaVt/2023/endsem.pdf"]
+const pyqCaCpP = ["src/assets/pyqCaCpP/2023/1.pdf", "src/assets/pyqCaCpP/2023/2.pdf", "src/assets/pyqCaCpP/2023/3.pdf", "src/assets/pyqCaCpP/2023/endsem.pdf"]
+
+//ch
+const pyqChVv = ["src/assets/pyqChVv/2023/1.pdf", "src/assets/pyqChVv/2023/2.pdf", "src/assets/pyqChVv/2023/3.pdf", "src/assets/pyqChVv/2023/endsem.pdf"]
+const pyqChCpP = ["src/assets/pyqChCpP/2023/1.pdf", "src/assets/pyqChCpP/2023/2.pdf", "src/assets/pyqChCpP/2023/3.pdf", "src/assets/pyqChCpP/2023/endsem.pdf"]
+
+//lm
+const pyqLmKl = ["src/assets/pyqLmKl/2023/1.pdf", "src/assets/pyqLmKl/2023/2.pdf", "src/assets/pyqLmKl/2023/3.pdf", "src/assets/pyqLmKl/2023/endsem.pdf"]
+
+//es
+const pyqEsAc = ["src/assets/pyqEsAc/2023/1.pdf", "src/assets/pyqEsAc/2023/2.pdf", "src/assets/pyqEsAc/2023/3.pdf", "src/assets/pyqEsAc/2023/endsem.pdf"]
+
+//dm
+const pyqDmSa = ["src/assets/pyqDmSa/2023/1.pdf", "src/assets/pyqDmSa/2023/2.pdf", "src/assets/pyqDmSa/2023/3.pdf", "src/assets/pyqDmSa/2023/endsem.pdf"]
+
+//ae
+const pyqAeSk = ["src/assets/pyqAeSk/2023/1.pdf", "src/assets/pyqAeSk/2023/2.pdf", "src/assets/pyqAeSk/2023/3.pdf", "src/assets/pyqAeSk/2023/endsem.pdf"]
+const pyqAeGk = ["src/assets/pyqAeGk/2023/1.pdf", "src/assets/pyqAeGk/2023/2.pdf", "src/assets/pyqAeGk/2023/3.pdf", "src/assets/pyqAeGk/2023/endsem.pdf"]
+const pyqAeSp = ["src/assets/pyqAeSp/2023/1.pdf", "src/assets/pyqAeSp/2023/2.pdf", "src/assets/pyqAeSp/2023/3.pdf", "src/assets/pyqAeSp/2023/endsem.pdf"]
+
+//na
+const pyqNaAv = ["src/assets/pyqNaAv/2023/1.pdf", "src/assets/pyqNaAv/2023/2.pdf", "src/assets/pyqNaAv/2023/3.pdf", "src/assets/pyqNaAv/2023/endsem.pdf"]
+const pyqNaDn = ["src/assets/pyqNaDn/2023/1.pdf", "src/assets/pyqNaDn/2023/2.pdf", "src/assets/pyqNaDn/2023/3.pdf", "src/assets/pyqNaDn/2023/endsem.pdf"]
+
+//sw1
+const pyqSw1Mj = ["src/assets/pyqSw1Mj/2023/1.pdf", "src/assets/pyqSw1Mj/2023/2.pdf", "src/assets/pyqSw1Mj/2023/3.pdf", "src/assets/pyqSw1Mj/2023/endsem.pdf"]
+const pyqSw1Ss = ["src/assets/pyqSw1Ss/2023/1.pdf", "src/assets/pyqSw1Ss/2023/2.pdf", "src/assets/pyqSw1Ss/2023/3.pdf", "src/assets/pyqSw1Ss/2023/endsem.pdf"]
+
+//am&som
+const pyqSomGp = ["src/assets/pyqSomGp/2023/1.pdf", "src/assets/pyqSomGp/2023/2.pdf", "src/assets/pyqSomGp/2023/3.pdf", "src/assets/pyqSomGp/2023/endsem.pdf"]
+
+//surveying
+const pyqSSm = ["src/assets/pyqSSm/2023/1.pdf", "src/assets/pyqSSm/2023/2.pdf", "src/assets/pyqSSm/2023/3.pdf", "src/assets/pyqSSm/2023/endsem.pdf"]
+
+//construction material
+const pyqCmPt = ["src/assets/pyqCmPt/2023/1.pdf", "src/assets/pyqCmPt/2023/2.pdf", "src/assets/pyqCmPt/2023/3.pdf", "src/assets/pyqCmPt/2023/endsem.pdf"]
+
+//structural mechanics
+const pyqSmGv = ["src/assets/pyqSmGv/2023/1.pdf", "src/assets/pyqSmGv/2023/2.pdf", "src/assets/pyqSmGv/2023/3.pdf", "src/assets/pyqSmGv/2023/endsem.pdf"]
+
+//drafting & computational skill(cs)
+const pyqDcsSc = ["src/assets/pyqCsSc/2023/1.pdf", "src/assets/pyqCsSc/2023/2.pdf", "src/assets/pyqCsSc/2023/3.pdf", "src/assets/pyqCsSc/2023/endsem.pdf"]
+
+
+
+
+
+
 
 
 export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
@@ -1718,4 +1794,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb}
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab}

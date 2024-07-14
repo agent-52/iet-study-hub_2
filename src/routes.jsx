@@ -7,7 +7,8 @@ import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am
   deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
   aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
   somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-  dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb
+  dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, 
+  pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss, pyqAm3Ps, pyqAm3Ab
 } from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
@@ -183,49 +184,53 @@ const routes = [
   //am3
   {
     path: "/year2/cse/3ACRC1Salika",
-    element: <SubjectDetailPage array={am3Array1} teacher="Salika Ansari" linksArray={am3SaArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={am3Array1} teacher="Salika Ansari" linksArray={am3SaArray} pyq2023Array={pyqAm3Sa}/>
   },
   {
     path: "/year2/etc/3ATRC1Pravin",
-    element: <SubjectDetailPage array={am3Array2} teacher="Pravin Singh" linksArray={am3PsArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={am3Array2} teacher="Pravin Singh" linksArray={am3PsArray} pyq2023Array={pyqAm3Ps}/>
   },
   {
     path: "/year2/ei/3AERC1Vf",
-    element: <SubjectDetailPage array={am3Array2} teacher="visting f." linksArray={am3VfArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={am3Array2} teacher="visting f." linksArray={am3VfArray} pyq2023Array={pyqAm3Ab}/>
   },
   {
     path: "/year2/civil/AVR3C1Vf",
     element: <SubjectDetailPage array={am3Array3} teacher="visting f." linksArray={am3VfArray} pyq2023Array={pyqAm2Cc}/>
   },
+  // {
+  //   path: "/year2/mech/3AMRC1Abhilasha",
+  //   element: <SubjectDetailPage array={am3Array2} teacher="Abhilasha Bhagwat" linksArray={am3PsArray} pyq2023Array={pyqAm3Ab}/>
+  // },
 
   //dm
   {
     path: "/year2/it/3AIRC1Sufiya",
-    element: <SubjectDetailPage array={dmArray} teacher="Sufiya Aziz" linksArray={dmSaArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dmArray} teacher="Sufiya Aziz" linksArray={dmSaArray} pyq2023Array={pyqDmSa}/>
   },
 
   //oop
   {
     path: "/year2/cse/3CERC2Jyoti",
-    element: <SubjectDetailPage array={oopArray} teacher="Jyoti Haveliya" linksArray={oopJhArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={oopArray} teacher="Jyoti Haveliya" linksArray={oopJhArray} pyq2023Array={pyqOopJh}/>
   },
   {
     path: "/year2/it/3ITRC2Aditya",
-    element: <SubjectDetailPage array={oopArray} teacher="Aditya Makwe" linksArray={oopAmArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={oopArray} teacher="Aditya Makwe" linksArray={oopAmArray} pyq2023Array={pyqOopAm}/>
   },
 
   //ds
   {
     path: "/year2/cse/3CERC3Vaibhav",
-    element: <SubjectDetailPage array={dsArray1} teacher="Vaibhav Jain" linksArray={dsVjArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray1} teacher="Vaibhav Jain" linksArray={dsVjArray} pyq2023Array={pyqDsVj}/>
   },
   {
     path: "/year2/cse/3CERC3Ashish",
-    element: <SubjectDetailPage array={dsArray1} teacher="Ashish Jain" linksArray={dsAjArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray1} teacher="Ashish Jain" linksArray={dsAjArray} pyq2023Array={pyqDsAj}/>
   },
   {
     path: "/year2/it/3ITRC3Pravin",
-    element: <SubjectDetailPage array={dsArray1} teacher="Pravin Karma" linksArray={dsPkArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray1} teacher="Pravin Karma" linksArray={dsPkArray} pyq2023Array={pyqDsPk}/>
   },
   {
     path: "/year2/etc/3ETRC3Vf",
@@ -233,103 +238,103 @@ const routes = [
   },
   {
     path: "/year2/ei/3EIRC3Hemlata",
-    element: <SubjectDetailPage array={dsArray2} teacher="Hemlata Pal" linksArray={dsHpArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray2} teacher="Hemlata Pal" linksArray={dsHpArray} pyq2023Array={pyqDsHp}/>
   },
 
   //de
   {
     path: "/year2/cse/3CERC4Ashish",
-    element: <SubjectDetailPage array={deArray1} teacher="Ashish Panchal" linksArray={deApArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={deArray1} teacher="Ashish Panchal" linksArray={deApArray} pyq2023Array={pyqDeAp}/>
   },
   {
     path: "/year2/cse/3CERC4Pravin",
-    element: <SubjectDetailPage array={deArray1} teacher="Pravin Singh" linksArray={dePsArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={deArray1} teacher="Pravin Singh" linksArray={dePsArray} pyq2023Array={pyqDePs}/>
   },
   {
     path: "/year2/it/3ITRC4Sneha",
-    element: <SubjectDetailPage array={deArray1} teacher="Aditya Makwe" linksArray={deSmArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={deArray1} teacher="Sneha Moghe" linksArray={deSmArray} pyq2023Array={pyqDeSm}/>
   },
   {
     path: "/year2/etc/3ETRC2Sanjiv",
-    element: <SubjectDetailPage array={deArray2} teacher="Sanjiv Tokekar" linksArray={deStArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={deArray2} teacher="Sanjiv Tokekar" linksArray={deStArray} pyq2023Array={pyqDeSt}/>
   },
   {
     path: "/year2/ei/3EIRC2Shivangi",
-    element: <SubjectDetailPage array={deArray2} teacher="Shivangi Bande" linksArray={deSbArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={deArray2} teacher="Shivangi Bande" linksArray={deSbArray} pyq2023Array={pyqDeSb}/>
   },
 
   //ch
   {
     path: "/year2/cse/3CERL1Vikas",
-    element: <SubjectDetailPage array={chArray} teacher="Vikas Vankhede" linksArray={chVvArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={chArray} teacher="Vikas Vankhede" linksArray={chVvArray} pyq2023Array={pyqChVv}/>
   },
   {
     path: "/year2/it/3ITRL1C.P.",
-    element: <SubjectDetailPage array={chArray} teacher="C.P. Patidar" linksArray={chCpArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={chArray} teacher="C.P. Patidar" linksArray={chCpArray} pyq2023Array={pyqChCpP}/>
   },
   
   //ca
   {
     path: "/year2/cse/3CERG1Vrinda",
-    element: <SubjectDetailPage array={caArray} teacher="Vrinda Tokekar" linksArray={caVtArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={caArray} teacher="Vrinda Tokekar" linksArray={caVtArray} pyq2023Array={pyqCaVt}/>
   },
   {
     path: "/year2/it/3ITRG1C.P.",
-    element: <SubjectDetailPage array={caArray} teacher="C.P. Patidar" linksArray={caCpArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={caArray} teacher="C.P. Patidar" linksArray={caCpArray} pyq2023Array={pyqCaCpP}/>
   },
 
   //es
   {
     path: "/year2/cse/3SCRS3Ajay",
-    element: <SubjectDetailPage array={esArray} teacher="Ajay Chhabriya" linksArray={esAcArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={esArray} teacher="Ajay Chhabriya" linksArray={esAcArray} pyq2023Array={pyqEsAc}/>
   },
   
   //lm
   {
     path: "/year2/it/3SIRS3Kamna",
-    element: <SubjectDetailPage array={lmArray} teacher="Kamna Lad" linksArray={lmKlArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={lmArray} teacher="Kamna Lad" linksArray={lmKlArray} pyq2023Array={pyqLmKl}/>
   },
   {
     path: "/year2/civil/SVR3S3Kamna",
-    element: <SubjectDetailPage array={lmArray} teacher="Kamna Lad" linksArray={lmKlArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={lmArray} teacher="Kamna Lad" linksArray={lmKlArray} pyq2023Array={pyqLmKl}/>
   },
   
   //ae
   {
     path: "/year2/ei/3EIRC4Shashi",
-    element: <SubjectDetailPage array={aeArray} teacher="Shashi Prakash" linksArray={aeSpArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={aeArray} teacher="Shashi Prakash" linksArray={aeSpArray} pyq2023Array={pyqAeSp}/>
   },
   {
     path: "/year2/etc/3ETRC4Shahid",
-    element: <SubjectDetailPage array={aeArray} teacher="Shahid Khilji" linksArray={aeSkArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={aeArray} teacher="Shahid Khilji" linksArray={aeSkArray} pyq2023Array={pyqAeSk}/>
   },
   {
     path: "/year2/etc/3ETRC4Gitesh",
-    element: <SubjectDetailPage array={aeArray} teacher="Gitesh Kwatra" linksArray={aeGkArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={aeArray} teacher="Gitesh Kwatra" linksArray={aeGkArray} pyq2023Array={pyqAeGk}/>
   },
 
   //na
   {
     path: "/year2/ei/3EIRG1Ajay",
-    element: <SubjectDetailPage array={naArray} teacher="Ajay Verma" linksArray={naAvArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={naArray} teacher="Ajay Verma" linksArray={naAvArray} pyq2023Array={pyqNaAv}/>
   },
   {
     path: "/year2/etc/3ETRG1Ajay",
-    element: <SubjectDetailPage array={naArray} teacher="Ajay Verma" linksArray={naAvArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={naArray} teacher="Ajay Verma" linksArray={naAvArray} pyq2023Array={pyqNaAv}/>
   },
   {
     path: "/year2/etc/3ETRG1Dhiraj",
-    element: <SubjectDetailPage array={naArray} teacher="Dhiraj Nitanaware" linksArray={naDnArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={naArray} teacher="Dhiraj Nitanaware" linksArray={naDnArray} pyq2023Array={pyqNaDn}/>
   },
 
   //sw-1
   {
     path: "/year2/ei/3EIRL1Sangita",
-    element: <SubjectDetailPage array={sw1Array} teacher="Sangita Solanki" linksArray={sw1SsArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={sw1Array} teacher="Sangita Solanki" linksArray={sw1SsArray} pyq2023Array={pyqSw1Ss}/>
   },
   {
     path: "/year2/etc/3ETRL1Madhvi",
-    element: <SubjectDetailPage array={sw1Array} teacher="Madhvi Janglwa" linksArray={sw1MjArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={sw1Array} teacher="Madhvi Janglwa" linksArray={sw1MjArray} pyq2023Array={pyqSw1Mj}/>
   },
 
   //cs
@@ -350,26 +355,26 @@ const routes = [
 
   //surveying
   {
-    path: "/year2/civil/VLR3C3Surveying",
-    element: <SubjectDetailPage array={sArray} teacher="Shivangi Mishra" linksArray={sSmArray} pyq2023Array={pyqAm2Cc}/>
+    path: "/year2/civil/VLR3C3Shivangi",
+    element: <SubjectDetailPage array={sArray} teacher="Shivangi Mishra" linksArray={sSmArray} pyq2023Array={pyqSSm}/>
   },
 
   //cm
   {
     path: "/year2/civil/VLR3C4Pragya",
-    element: <SubjectDetailPage array={cmArray} teacher="Girish Patidar" linksArray={cmPtArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={cmArray} teacher="Pragya Tiwari" linksArray={cmPtArray} pyq2023Array={pyqCmPt}/>
   },
 
   //sm
   {
     path: "/year2/civil/VLR3G1Gajendra",
-    element: <SubjectDetailPage array={smArray} teacher="Gajendra Verma" linksArray={smGvArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={smArray} teacher="Gajendra Verma" linksArray={smGvArray} pyq2023Array={pyqSmGv}/>
   },
 
   //dcs
   {
     path: "/year2/civil/VLR3L1Sangeeta",
-    element: <SubjectDetailPage array={dcsArray} teacher="Sangeeta Chouhan" linksArray={dcsScArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dcsArray} teacher="Sangeeta Chouhan" linksArray={dcsScArray} pyq2023Array={pyqDcsSc}/>
   },
 
 
