@@ -4,7 +4,7 @@ import Header from "../Header/Header"
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import abhay1 from "/textures/teamImages/abhay.jpg"
-import vishali from "/textures/teamImages/vishali.jpeg"
+import vishali from "/textures/teamImages/vishal2.jpeg"
 import pranshui from "/textures/teamImages/pranshu1.jpeg"
 
 const Team = () =>
@@ -193,30 +193,44 @@ const Team = () =>
     }, [])
 
     return(
-        <div className="team body text-slate-12 background font-sans pi1">
+        <div className="team text-slate-12 background font-sans pi1">
             <Header/>
-            <div className="teamPage1 text-center flexC alignC">
+            <div className="teamPage text-center flexC alignC">
                 
                 {/* <div className="text-medium1 text-slate-11 mgT5">"Made by one-nighter for one-nighters"</div> */}
-                <div className="relative">
-                    <canvas className="webgl2"></canvas>
-                    <div className="abhayImage"><img src={abhay1} alt="abhay image" /></div>
+                <div className="abhaySection">
+                    <div className="relative">
+                        <canvas className="webgl2"></canvas>
+                        <div className="abhayImage"><img src={abhay1} alt="abhay image" /></div>
+                    </div>
+                    <div className="font-effect-hero antialiased font-gradient text-large noWrap text-center abhay flexC gap0 alignC">
+                        <div className="">Abhay Pratap</div>
+                        <div className="text-medium1">[creator, maintainer]</div>
+                    </div>
                 </div>
-                <div className="font-effect-hero antialiased font-gradient text-medium noWrap text-center abhay flexC gap0 alignC">
-                    <div>Abhay Bhadauriya</div>
-                    <div className="text-medium1">[creator, maintainer]</div>
+                <div className="mainContributors flexC gap4">
+                    <div className="flexC gap1 alignC">
+                        <div className="text-medium ">Backed by incredible contributers</div>
+                        <div className="text-sm1 text-slate-11">Helped in making every request come true </div>
+                    </div>
+                    <div className="flex mainContributorBox">
+                        <div className="contributorM">
+                            <img src={pranshui} alt="pranshu image" className="contributorMi"/>
+                            <div className="text-medium1">Pranshu Gupta</div>
+                            <div className="text-sm1 text-slate-11">[ Resource Contributor ]</div>
+                            <div className="text-sm1 text-slate-11">[ Video editor ]</div>                    
+                        </div>
+                        <div className="contributorM">
+                            <img src={vishali} alt="vishal image" className="contributorMi"/>
+                            <div className="text-medium1">Pranshu Gupta</div>
+                            <div className="text-sm1 text-slate-11">[ Resource Contributor ]</div> 
+                        </div>
+
+                    </div>
                 </div>
             </div>
             
-            <div className="flexC gap1">
-                <div className="text-medium font-medium">Backed by incredible contributers</div>
-                <div className="text-sm1 text-slate-11">Helped in making every request come true </div>
-            </div>
-            <div className="flex">
-                <div className="contributorM"><img src={pranshui} alt="pranshu image" /></div>
-                <div className="contributorM"><img src={vishali} alt="vishal image" /></div>
-
-            </div>
+            
         </div>
        
     )
