@@ -100,7 +100,7 @@ const year1Batch1Array = [
     subCode: "1AMRC1",
     subName: "Appled Mathematics-I",
     src: am1i,
-    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan"],
+    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan",],
     
   },
   {
@@ -144,7 +144,7 @@ const year1Batch2Array = [{
   subName: "Humanities",
   subCode: "2SSRS2",
   src: humai,
-  teachers:["Aarti Saran", "Asmita Agrawal"],
+  teachers:["Aarti Saran", "Asmita Agrawal", "Deepali Bajaj"],
   
 },
 {
@@ -158,7 +158,7 @@ const year1Batch2Array = [{
   subName: "Electrical Engineering",
   subCode: "2EIRC4",
   src: eei,
-  teachers:["Ajay Verma", "Surekha patil", "Nitin", "Tapesh Sarsodiya"],
+  teachers:["Ajay Verma", "Surekha patil", "Nitin", "Tapesh Sarsodiya", "Bhallavi"],
   
 },
 {
@@ -172,7 +172,7 @@ const year1Batch2Array = [{
   subName: "Applied Mathematics-II",
   subCode: "2AMRC1",
   src: am2i,
-  teachers:["Chandrashekhar", "Vikas"],
+  teachers:["Chandrashekhar", "Vikas", "Deepika Rai"],
   
 },
 ]
@@ -390,6 +390,7 @@ const emeArray = [
  */
 const am2CcArray = ["src/assets/am2Cc/unit1.pdf","src/assets/am2Cc/unit2.pdf","src/assets/am2Cc/unit3.pdf","src/assets/am2Cc/unit4.pdf","src/assets/am2Cc/unit5.pdf"]
 const am2VArray = ["src/assets/am2V/unit1.pdf","src/assets/am2V/unit2.pdf","src/assets/am2V/unit3.pdf","src/assets/am2V/unit4.pdf","src/assets/am2V/unit5.pdf"]
+const am2DrArray = ["src/assets/am2Dr/unit1.pdf","src/assets/am2Dr/unit2.pdf","src/assets/am2Dr/unit3.pdf","src/assets/am2Dr/unit4.pdf","src/assets/am2Dr/unit5.pdf"]
 const am2Array = [
   {
     unit:1,
@@ -457,6 +458,7 @@ const apArray = [
  */
 const hAsArray = ["src/assets/hAs/unit1.pdf","src/assets/hAs/unit2.pdf","src/assets/hAs/unit3.pdf","src/assets/hAs/unit4.pdf","src/assets/hAs/unit5.pdf"]
 const hAaArray = ["src/assets/hAa/unit1.pdf","src/assets/hAa/unit2.pdf","src/assets/hAa/unit3.pdf","src/assets/hAa/unit4.pdf","src/assets/hAa/unit5.pdf"]
+const hDbArray = ["src/assets/hDb/unit1.pdf","src/assets/hDb/unit2.pdf","src/assets/hDb/unit3.pdf","src/assets/hDb/unit4.pdf","src/assets/hDb/unit5.pdf"]
 
 const hArray = [
   {
@@ -527,6 +529,7 @@ const eeAvArray = ["src/assets/eeAv/unit1.pdf","src/assets/eeAv/unit2.pdf","src/
 const eeSpArray = ["src/assets/eeSp/unit1.pdf","src/assets/eeSp/unit2.pdf","src/assets/eeSp/unit3.pdf","src/assets/eeSp/unit4.pdf","src/assets/eeSp/unit5.pdf"]
 const eeTsArray = ["src/assets/eeTs/unit1.pdf","src/assets/eeTs/unit2.pdf","src/assets/eeTs/unit3.pdf","src/assets/eeTs/unit4.pdf","src/assets/eeTs/unit5.pdf"]
 const eeNArray = ["src/assets/eeN/unit1.pdf","src/assets/eeN/unit2.pdf","src/assets/eeN/unit3.pdf","src/assets/eeN/unit4.pdf","src/assets/eeN/unit5.pdf"]
+const eeBArray = ["src/assets/eeB/unit1.pdf","src/assets/eeB/unit2.pdf","src/assets/eeB/unit3.pdf","src/assets/eeB/unit4.pdf","src/assets/eeB/unit5.pdf"]
 
 const eeArray = [
   {
@@ -624,6 +627,7 @@ const pyqApSk = ["src/assets/pyqApSk/2023/1.pdf", "src/assets/pyqApSk/2023/2.pdf
 //humanities
 const pyqHAs = ["src/assets/pyqHAs/2023/1.pdf", "src/assets/pyqHAs/2023/2.pdf", "src/assets/pyqHAs/2023/3.pdf", "src/assets/pyqHAs/2023/endsem.pdf"]
 const pyqHAa = ["src/assets/pyqHAa/2023/1.pdf", "src/assets/pyqHAa/2023/2.pdf", "src/assets/pyqHAa/2023/3.pdf", "src/assets/pyqHAa/2023/endsem.pdf"]
+const pyqHDb = ["src/assets/pyqHDb/2023/1.pdf", "src/assets/pyqHDb/2023/2.pdf", "src/assets/pyqHDb/2023/3.pdf", "src/assets/pyqHDb/2023/endsem.pdf"]
 
 //ed
 const pyqEdOj = ["src/assets/pyqEdOj/2023/1.pdf", "src/assets/pyqEdOj/2023/2.pdf", "src/assets/pyqEdOj/2023/3.pdf", "src/assets/pyqEdOj/2023/endsem.pdf"]
@@ -633,6 +637,7 @@ const pyqEeAv = ["src/assets/pyqEeAv/2023/1.pdf", "src/assets/pyqEeAv/2023/2.pdf
 const pyqEeSp = ["src/assets/pyqEeSp/2023/1.pdf", "src/assets/pyqEeSp/2023/2.pdf", "src/assets/pyqEeSp/2023/3.pdf", "src/assets/pyqEeSp/2023/endsem.pdf"]
 const pyqEeN = ["src/assets/pyqEeN/2023/1.pdf", "src/assets/pyqEeN/2023/2.pdf", "src/assets/pyqEeN/2023/3.pdf", "src/assets/pyqEeN/2023/endsem.pdf"]
 const pyqEeTs = ["src/assets/pyqEeTs/2023/1.pdf", "src/assets/pyqEeTs/2023/2.pdf", "src/assets/pyqEeTs/2023/3.pdf", "src/assets/pyqEeTs/2023/endsem.pdf"]
+const pyqEeB = ["src/assets/pyqEeB/2023/1.pdf", "src/assets/pyqEeB/2023/2.pdf", "src/assets/pyqEeB/2023/3.pdf", "src/assets/pyqEeB/2023/endsem.pdf"]
 
 //cp
 const pyqCpMp = ["src/assets/pyqCpMp/2023/1.pdf", "src/assets/pyqCpMp/2023/2.pdf", "src/assets/pyqCpMp/2023/3.pdf", "src/assets/pyqCpMp/2023/endsem.pdf"]
@@ -641,6 +646,7 @@ const pyqCpNc = ["src/assets/pyqCpNc/2023/1.pdf", "src/assets/pyqCpMNc/2023/2.pd
 //am2
 const pyqAm2Cc = ["src/assets/pyqAm2Cc/2023/1.pdf", "src/assets/pyqAm2Cc/2023/2.pdf", "src/assets/pyqAm2Cc/2023/3.pdf", "src/assets/pyqAm2Cc/2023/endsem.pdf"]
 const pyqAm2V = ["src/assets/pyqAm2V/2023/1.pdf", "src/assets/pyqAm2V/2023/2.pdf", "src/assets/pyqAm2V/2023/3.pdf", "src/assets/pyqAm2V/2023/endsem.pdf"]
+const pyqAm2Dr = ["src/assets/pyqAm2Dr/2023/1.pdf", "src/assets/pyqAm2Dr/2023/2.pdf", "src/assets/pyqAm2Dr/2023/3.pdf", "src/assets/pyqAm2Dr/2023/endsem.pdf"]
 
 /**
  * Year2
@@ -1712,4 +1718,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray}
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb}

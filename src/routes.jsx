@@ -7,7 +7,7 @@ import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am
   deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
   aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
   somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-  dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,
+  dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb
 } from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
@@ -125,6 +125,10 @@ const routes = [
     path: "/year1/batch2/2SSRS2Asmita",
     element: <SubjectDetailPage array={hArray} teacher="Asmita Agrawal" linksArray={hAaArray} pyq2023Array={pyqHAa}/>
   },
+  {
+    path: "/year1/batch2/2SSRS2Deepali",
+    element: <SubjectDetailPage array={hArray} teacher="Deepali Bajaj" linksArray={hDbArray} pyq2023Array={pyqHDb}/>
+  },
   //ed
   {
     path: "/year1/batch2/2MERC3Omprakash",
@@ -147,6 +151,10 @@ const routes = [
     path: "/year1/batch2/2EIRC4Tapesh",
     element: <SubjectDetailPage array={eeArray} teacher="Tapesh Sarsodiya" linksArray={eeTsArray} pyq2023Array={pyqEeTs}/>
   },
+  {
+    path: "/year1/batch2/2EIRC4Bhallavi",
+    element: <SubjectDetailPage array={eeArray} teacher="Bhallavi" linksArray={eeBArray} pyq2023Array={pyqEeB}/>
+  },
   //cp
   {
     path: "/year1/batch2/2CORC5Manoj",
@@ -162,8 +170,12 @@ const routes = [
     element: <SubjectDetailPage array={am2Array} teacher="Chandrashekhar Chauhan" linksArray={am2CcArray} pyq2023Array={pyqAm2Cc}/>
   },
   {
-    path: "/year1/batch2/2AMRC1Chandrashekhar",
+    path: "/year1/batch2/2AMRC1Vikas",
     element: <SubjectDetailPage array={am2Array} teacher="Vikas" linksArray={am2VArray} pyq2023Array={pyqAm2V}/>
+  },
+  {
+    path: "/year1/batch2/2AMRC1Deepika",
+    element: <SubjectDetailPage array={am2Array} teacher="Deepika Rai" linksArray={am2DrArray} pyq2023Array={pyqAm2Dr}/>
   },
 
   //year2Subjects

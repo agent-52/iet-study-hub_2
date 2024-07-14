@@ -176,8 +176,8 @@ const Team = () =>
 
             const parallaxX = cursor.x * 0.7
             const parallaxY = - cursor.y * 0.3
-            cameraGroup.position.x += (parallaxX - cameraGroup.position.x) * 3 * deltaTime
-            cameraGroup.position.y += (parallaxY - cameraGroup.position.y) * 0.7* deltaTime
+            cameraGroup.position.x += (parallaxX - cameraGroup.position.x) * 3.5 * deltaTime
+            cameraGroup.position.y += (parallaxY - cameraGroup.position.y) * 1.5* deltaTime
             // camera1.position.x += (parallaxX - camera.position.x) * 3 * deltaTime
             // camera1.position.y += (parallaxY - camera.position.y) * 0.5* deltaTime
 
@@ -222,7 +222,7 @@ const Team = () =>
                         </div>
                         <div className="contributorM">
                             <img src={vishali} alt="vishal image" className="contributorMi"/>
-                            <div className="text-medium1">Pranshu Gupta</div>
+                            <div className="text-medium1">Vishal Mangrole</div>
                             <div className="text-sm1 text-slate-11">[ Resource Contributor ]</div> 
                         </div>
 
