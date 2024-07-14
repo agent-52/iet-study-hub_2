@@ -7,7 +7,7 @@ import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am
   deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
   aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
   somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-  dmArray, dmSaArray, dcsArray
+  dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,
 } from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
@@ -160,6 +160,10 @@ const routes = [
   {
     path: "/year1/batch2/2AMRC1Chandrashekhar",
     element: <SubjectDetailPage array={am2Array} teacher="Chandrashekhar Chauhan" linksArray={am2CcArray} pyq2023Array={pyqAm2Cc}/>
+  },
+  {
+    path: "/year1/batch2/2AMRC1Chandrashekhar",
+    element: <SubjectDetailPage array={am2Array} teacher="Vikas" linksArray={am2VArray} pyq2023Array={pyqAm2V}/>
   },
 
   //year2Subjects

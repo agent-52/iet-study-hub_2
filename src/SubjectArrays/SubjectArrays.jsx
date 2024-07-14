@@ -172,7 +172,7 @@ const year1Batch2Array = [{
   subName: "Applied Mathematics-II",
   subCode: "2AMRC1",
   src: am2i,
-  teachers:["Chandrashekhar"],
+  teachers:["Chandrashekhar", "Vikas"],
   
 },
 ]
@@ -389,6 +389,7 @@ const emeArray = [
  * Applied mathematics-II
  */
 const am2CcArray = ["src/assets/am2Cc/unit1.pdf","src/assets/am2Cc/unit2.pdf","src/assets/am2Cc/unit3.pdf","src/assets/am2Cc/unit4.pdf","src/assets/am2Cc/unit5.pdf"]
+const am2VArray = ["src/assets/am2V/unit1.pdf","src/assets/am2V/unit2.pdf","src/assets/am2V/unit3.pdf","src/assets/am2V/unit4.pdf","src/assets/am2V/unit5.pdf"]
 const am2Array = [
   {
     unit:1,
@@ -639,6 +640,7 @@ const pyqCpNc = ["src/assets/pyqCpNc/2023/1.pdf", "src/assets/pyqCpMNc/2023/2.pd
 
 //am2
 const pyqAm2Cc = ["src/assets/pyqAm2Cc/2023/1.pdf", "src/assets/pyqAm2Cc/2023/2.pdf", "src/assets/pyqAm2Cc/2023/3.pdf", "src/assets/pyqAm2Cc/2023/endsem.pdf"]
+const pyqAm2V = ["src/assets/pyqAm2V/2023/1.pdf", "src/assets/pyqAm2V/2023/2.pdf", "src/assets/pyqAm2V/2023/3.pdf", "src/assets/pyqAm2V/2023/endsem.pdf"]
 
 /**
  * Year2
@@ -1710,4 +1712,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray}
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray}
