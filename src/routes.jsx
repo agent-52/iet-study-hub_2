@@ -52,6 +52,10 @@ const routes = [
     
   },
   {
+    path:"/sorry" ,
+    element: <ErrorPage />
+  },
+  {
     path: "/team",
     element: <Team />
   },
