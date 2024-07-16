@@ -183,7 +183,7 @@ const year1Batch2Array = [{
 
 const am1DbArray =["src/assets/am1Db/unit1.pdf","src/assets/am1Db/unit2.pdf","src/assets/am1Db/unit3.pdf","src/assets/am1Db/unit4.pdf","src/assets/am1Db/unit5.pdf"]
 const am1AkArray =["src/assets/am1Ak/unit1.pdf","src/assets/am1Ak/unit2.pdf","src/assets/am1Ak/unit3.pdf","src/assets/am1Ak/unit4.pdf","src/assets/am1Ak/unit5.pdf"]
-const am1SaArray = ["src/assets/am1Sa/unit1.pdf","src/assets/am1Sa/unit2.pdf","src/assets/am1Sa/unit3.pdf","src/assets/am1Sa/unit4.pdf","src/assets/am1Sa/unit5.pdf"]
+const am1SaArray = ["/am1Sa/unit1.pdf","/am1Sa/unit2.pdf","src/assets/am1Sa/unit3.pdf","src/assets/am1Sa/unit4.pdf","src/assets/am1Sa/unit5.pdf"]
 
 
 const am1Array = [
