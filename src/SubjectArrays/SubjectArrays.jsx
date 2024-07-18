@@ -1085,14 +1085,14 @@ const year2EtcBatch1Array = [
     subCode: "3ETRC3",
     subName: "Data Structure",
     src: etcdsi,
-    teachers:["VF"],
+    teachers:["Sonali Korane", "Gitesh Kwatra"],
     
   },
   {
     subName: "Analog Electronics",
     subCode: "3ETRC4",
     src: etcaei,
-    teachers:["Shahid Khilji", "Gitesh Kwatra"],
+    teachers:["Shahid Khilji"]
     
   },
   {
@@ -1113,7 +1113,7 @@ const year2EtcBatch1Array = [
     subName: "Communication Skill",
     subCode: "3STRS3",
     src: etccsi,
-    teachers:["VF"],
+    teachers:["Aarti Saran"],
     
   },
 
@@ -1153,8 +1153,9 @@ const year2EtcBatch1Array = [
   ]
 
   //ds
-const dsVfArray = ["dsVf/unit1.pdf","dsVf/unit2.pdf","dsVf/unit3.pdf","dsVf/unit4.pdf","dsVf/unit5.pdf"]
+const dsGkArray = ["dsGk/unit1.pdf","dsGk/unit2.pdf","dsGk/unit3.pdf","dsGk/unit4.pdf","dsGk/unit5.pdf"]
 const dsHpArray = ["dsHp/unit1.pdf","dsHp/unit2.pdf","dsHp/unit3.pdf","dsHp/unit4.pdf","dsHp/unit5.pdf"]
+const dsSkArray = ["dsSk/unit1.pdf","dsSk/unit2.pdf","dsSk/unit3.pdf","dsSk/unit4.pdf","dsSk/unit5.pdf"]
 
 const dsArray2 = [
   {
@@ -1790,7 +1791,7 @@ const pyqDcsSc = ["pyqCsSc/2023/1.pdf", "pyqCsSc/2023/2.pdf", "pyqCsSc/2023/3.pd
 export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
 year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
 pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
- am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsVfArray, dsPkArray, 
+ am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsGkArray, dsSkArray, dsPkArray, 
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
