@@ -1153,8 +1153,8 @@ const year2EtcBatch1Array = [
   ]
 
   //ds
-const dsVfArray = ["dSVf/unit1.pdf","dSVf/unit2.pdf","dSVf/unit3.pdf","dSVf/unit4.pdf","dSVf/unit5.pdf"]
-const dsHpArray = ["dSHp/unit1.pdf","dSHp/unit2.pdf","dSHp/unit3.pdf","dSHp/unit4.pdf","dSHp/unit5.pdf"]
+const dsVfArray = ["dsVf/unit1.pdf","dsVf/unit2.pdf","dsVf/unit3.pdf","dsVf/unit4.pdf","dsVf/unit5.pdf"]
+const dsHpArray = ["dsHp/unit1.pdf","dsHp/unit2.pdf","dsHp/unit3.pdf","dsHp/unit4.pdf","dsHp/unit5.pdf"]
 
 const dsArray2 = [
   {
@@ -1229,7 +1229,7 @@ const aeArray = [
   },
   {
     unit:2,
-    name:"Transistors, JFETs",
+    name:"JFETs",
     yt:"#",
   },
   {
