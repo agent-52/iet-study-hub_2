@@ -28,7 +28,7 @@ const App = () =>
           <div>Missing something</div>
           <div>it will be here before exams.</div>
         </div>
-        <div className="p2Main">
+        <div className="p2Main" id="page2">
           <div className="flexC gap1 alignC">
             <div className="Video"><video src={world} autoPlay loop muted onContextMenu={e => e.preventDefault()} disablePictureInPicture={true}></video></div>
             <div className="text-medium text-center">Choose your <span className="text-green-a9">Arena</span></div>
