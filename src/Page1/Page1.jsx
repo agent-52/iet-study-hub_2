@@ -42,7 +42,7 @@ const Page1 = () =>
         </div>
         <div className="navDesktop">
           <Button text="Contribute >" version={1}/>
-          <Button text="Documentation >" version={2}/>
+          <Button text="Explore >" version={2}/>
         </div>
       </div>
       <div className="p1r">
