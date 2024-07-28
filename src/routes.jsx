@@ -9,7 +9,7 @@ import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am
   somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
   dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, 
   pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss, pyqAm3Ps, pyqAm3Ab, pyqCsAs,pyqAm3Vv,
-  dsGkArray, dsSkArray,
+  dsGkArray, dsSkArray, pyqDsSk, pyqDsGk,
 } from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
@@ -239,11 +239,11 @@ const routes = [
   },
   {
     path: "/year2/etc/3ETRC3Sonali",
-    element: <SubjectDetailPage array={dsArray2} teacher="Sonali Korane" linksArray={dsSkArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray2} teacher="Sonali Korane" linksArray={dsSkArray} pyq2023Array={pyqDsSk}/>
   },
   {
     path: "/year2/etc/3ETRC3Gitesh",
-    element: <SubjectDetailPage array={dsArray2} teacher="Gitesh Kawarta" linksArray={dsGkArray} pyq2023Array={pyqAm2Cc}/>
+    element: <SubjectDetailPage array={dsArray2} teacher="Gitesh Kawarta" linksArray={dsGkArray} pyq2023Array={pyqDsGk}/>
   },
   {
     path: "/year2/ei/3EIRC3Hemlata",
