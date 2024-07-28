@@ -1717,6 +1717,7 @@ const year2CivilBatch1Array = [
 const pyqAm3Sa = ["pyqAm3Sa/2023/1.pdf", "pyqAm3Sa/2023/2.pdf", "pyqAm3Sa/2023/3.pdf", "pyqAm3Sa/2023/endsem.pdf"]
 const pyqAm3Ab = ["pyqAm3Ab/2023/1.pdf", "pyqAm3Ab/2023/2.pdf", "pyqBeAb/2023/3.pdf", "pyqBeAb/2023/endsem.pdf"]
 const pyqAm3Ps = ["pyqAm3Ps/2023/1.pdf", "pyqAm3Ps/2023/2.pdf", "pyqAm3Ps/2023/3.pdf", "pyqAm3Ps/2023/endsem.pdf"]
+const pyqAm3Vv = ["pyqAm3Vv/2023/1.pdf", "pyqAm3Vv/2023/2.pdf", "pyqAm3Vv/2023/3.pdf", "pyqAm3Vv/2023/endsem.pdf"]
 
 //oop
 const pyqOopJh = ["pyqOopJh/2023/1.pdf", "pyqOopJh/2023/2.pdf", "pyqOopJh/2023/3.pdf", "pyqOopJh/2023/endsem.pdf"]
@@ -1797,4 +1798,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs }
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs, pyqAm3Vv }
