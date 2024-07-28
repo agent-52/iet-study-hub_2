@@ -1466,7 +1466,7 @@ const year2CivilBatch1Array = [
     subCode: "AVR3C1",
     subName: "Appled Mathematics-III",
     src: civilam3i,
-    teachers:["VF"],
+    teachers:["Vikas Vishwakarma"],
     
   },
   {

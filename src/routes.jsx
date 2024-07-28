@@ -200,8 +200,8 @@ const routes = [
     element: <SubjectDetailPage array={am3Array2} teacher="Vikas Vishwakarma" linksArray={am3VvArray} pyq2023Array={pyqAm3Ps}/>
   },
   {
-    path: "/year2/civil/AVR3C1Vf",
-    element: <SubjectDetailPage array={am3Array3} teacher="visting f." linksArray={am3VfArray} pyq2023Array={pyqAm2Cc}/>
+    path: "/year2/civil/AVR3C1Vikas",
+    element: <SubjectDetailPage array={am3Array3} teacher="Vikas Vishwakarma" linksArray={am3VvArray} pyq2023Array={pyqAm3Ps}/>
   },
   // {
   //   path: "/year2/mech/3AMRC1Abhilasha",
