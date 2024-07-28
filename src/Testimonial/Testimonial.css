@@ -1,7 +1,7 @@
 
 .testimonialBox{
   width: min-content;
-  animation: slide 60s linear infinite alternate ;
+  animation: slide 40s linear infinite alternate ;
   
 }
 
@@ -29,9 +29,9 @@
 
 @keyframes slide {
   from{
-    transform: translateX(0);
+    transform: translateX(45%);
   }
   to{
-    transform: translateX(-30%);
+    transform: translateX(-45%);
   }
 }

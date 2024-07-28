@@ -934,9 +934,7 @@ const esArray = [
   },
 ]
 
- const year2CseBatch2Array = [
-  
- ]
+//  const year2CseBatch2Array;
 
 
 //Year2 IT
@@ -1061,9 +1059,9 @@ const year2ItBatch1Array = [
 
 
 
- const year2ItBatch2Array = [
+//  const year2ItBatch2Array = [
   
- ]
+//  ]
 
 //year2 etc
 const year2EtcBatch1Array = [
@@ -1123,6 +1121,7 @@ const year2EtcBatch1Array = [
   */
  //am3
   const am3PsArray = ["am3Ps/unit1.pdf","am3Ps/unit2.pdf","am3Ps/unit3.pdf","am3Ps/unit4.pdf","am3Ps/unit5.pdf"]
+  const am3VvArray = ["am3Vv/unit1.pdf","am3Vv/unit2.pdf","am3Vv/unit3.pdf","am3Vv/unit4.pdf","am3Vv/unit5.pdf"]
 
   const am3Array2 = [
     {
@@ -1315,13 +1314,13 @@ const sw1Array = [
 ]
 
 //cs
-const csVfArray = ["csVf/unit1.pdf","csVf/unit2.pdf","csVf/unit3.pdf","csVf/unit4.pdf","csVf/unit5.pdf"]
+const csAsArray = ["csAs/unit1.pdf","csAs/unit2.pdf","csAs/unit3.pdf","csAs/unit4.pdf","csAs/unit5.pdf"]
 
 
 const csArray = [
   {
     unit:1,
-    name:"Fundamentals of Communicatio",
+    name:"Fundamentals of Communication",
     yt:"#",
   },
   {
@@ -1357,7 +1356,7 @@ const csArray = [
     subCode: "3AERC1",
     subName: "Appled Mathematics-III",
     src: eiam3i,
-    teachers:["VF"],
+    teachers:["Vikas Vishwakarma"],
     
   },
   {
@@ -1399,7 +1398,7 @@ const csArray = [
     subName: "Communication Skill",
     subCode: "3SERS3",
     src: eicsi,
-    teachers:["VF"],
+    teachers:["Aarti Saran"],
     
   },
 
@@ -1778,8 +1777,11 @@ const pyqCmPt = ["pyqCmPt/2023/1.pdf", "pyqCmPt/2023/2.pdf", "pyqCmPt/2023/3.pdf
 //structural mechanics
 const pyqSmGv = ["pyqSmGv/2023/1.pdf", "pyqSmGv/2023/2.pdf", "pyqSmGv/2023/3.pdf", "pyqSmGv/2023/endsem.pdf"]
 
-//drafting & computational skill(cs)
-const pyqDcsSc = ["pyqCsSc/2023/1.pdf", "pyqCsSc/2023/2.pdf", "pyqCsSc/2023/3.pdf", "pyqCsSc/2023/endsem.pdf"]
+//drafting & computational skill(Dcs)
+const pyqDcsSc = ["pyqDcsSc/2023/1.pdf", "pyqDcsSc/2023/2.pdf", "pyqDcsSc/2023/3.pdf", "pyqDcsSc/2023/endsem.pdf"]
+
+//communication skill(cs)
+const pyqCsAs = ["pyqCsAs/2023/1.pdf", "pyqCsAs/2023/2.pdf", "pyqCsAs/2023/3.pdf", "pyqCsAs/2023/endsem.pdf"]
 
 
 
@@ -1788,11 +1790,11 @@ const pyqDcsSc = ["pyqCsSc/2023/1.pdf", "pyqCsSc/2023/2.pdf", "pyqCsSc/2023/3.pd
 
 
 
-export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2CseBatch2Array, year2ItBatch2Array, year2EtcBatch1Array, year2EiBatch1Array,
+export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2EtcBatch1Array, year2EiBatch1Array,
 year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
 pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
  am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsGkArray, dsSkArray, dsPkArray, 
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
-aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csVfArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
+aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab}
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs }
