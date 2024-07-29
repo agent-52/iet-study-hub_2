@@ -35,7 +35,7 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
               <div>Unit{unit.unit}</div>
               <div>{unit.name}</div>
               <div className="smallImageBox"><a href={unit.yt}><img src={ytLogo} alt="yt link" /></a></div>
-              <div className="smallImageBox"><a className="noteLink" href="" ><img src={docLogo} alt="pdf link" /></a></div>
+              <div className="smallImageBox"><a className="noteLink" href="" target="_blank" rel="noopener noreferrer" ><img src={docLogo} alt="pdf link"/></a></div>
             </div>
           )
         })}
@@ -54,25 +54,25 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
                 <div>Mst-1</div>
                 <div>{year}</div>
                 <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
-                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href="" target="_blank" rel="noopener noreferrer"><img src={docLogo} alt="pdf link" /></a></div>
               </div>
               <div className="unitBlock">
                 <div>Mst-2</div>
                 <div>{year}</div>
                 <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
-                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href="" target="_blank" rel="noopener noreferrer"><img src={docLogo} alt="pdf link" /></a></div>
               </div>
               <div className="unitBlock">
                 <div>Mst-3</div>
                 <div>{year}</div>
                 <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
-                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href="" target="_blank" rel="noopener noreferrer"><img src={docLogo} alt="pdf link" /></a></div>
               </div>
               <div className="unitBlock">
                 <div>End-Sem</div>
                 <div>{year}</div>
                 <div><a id="textDecNone" className={`pyqSolution${year}`} href="">Solution</a></div>
-                <div className="smallImageBox"><a className={`pyq${year}`} href=""><img src={docLogo} alt="pdf link" /></a></div>
+                <div className="smallImageBox"><a className={`pyq${year}`} href="" target="_blank" rel="noopener noreferrer"><img src={docLogo} alt="pdf link" /></a></div>
               </div>
             </div>
                 
