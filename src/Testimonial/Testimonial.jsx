@@ -53,7 +53,7 @@ const Testimonial = () =>
           <div className=" text-sm testimonialBox text-slate-11 flex gap2">
 
           <div className="testimonial flexC gap2">
-            <div className="">"IET Study Hub has been an absolute blessing throughout my Computer science journey. The notes are incredibly thorough and well-organized, covering every aspect of my course with clarity. What really stood out for me were the past year question sets—they not only helped me understand the exam format but also sharpened my problem-solving skills. Thanks to IET Study Hub, I feel well-prepared and confident heading into my exams."</div>
+            <div className="">"IET Study Hub has been very helpfull . The notes are incredibly thorough and well-organized, covering every aspect of the course with clarity. What really stood out for me were the past year question sets—they not only helped me understand the important topics but also help my problem-solving skills. Thanks to IET Study Hub, I feel well-prepared and confident heading into my exams."</div>
             <div className="flex gap1">
               <div className="imgBox"><img src={sidi} alt="" /></div>
               <div className="flexC justify-between">
@@ -64,7 +64,7 @@ const Testimonial = () =>
           </div>
           
           <div className="testimonial flexC gap2">
-            <div className="">"I can't recommend IET Study Hub enough to my fellow It students. The notes provided are comprehensive and include all the key concepts and formulas essential for exams. The past year question papers were instrumental in helping me identify important topics and understand the exam structure better. Using IET Study Hub has truly enhanced my learning experience and significantly boosted my grades."</div>
+            <div className="">"I can't recommend IET Study Hub enough to my fellow It students. The notes provided are comprehensive and include all the key concepts and formulas essential for exams. The past year question papers were instrumental in helping me identify important topics and understand the exam structure better. IET Study Hub has truly helped my learning experience."</div>
             <div className="flex gap1">
               <div className="imgBox"><img src={shreyanshi} alt="" /></div>
               <div className="flexC justify-between">
@@ -77,7 +77,7 @@ const Testimonial = () =>
           
 
           <div className="testimonial flexC gap2">
-            <div className="">"Choosing IET Study Hub was one of the best decisions I made for my civil engineering studies. The notes are structured in a way that simplifies even the most intricate topics, and the inclusion of practical examples makes learning enjoyable. The past year question sets were invaluable—they not only tested my knowledge but also helped me identify areas needing more focus."</div>
+            <div className="">"IET Study Hub was one of the best platform made for my civil engineering studies. The notes are structured in a way that simplifies even the most intricate topics, The past year question sets were invaluable—they not only tested my knowledge but also helped me identify areas needing more focus."</div>
             <div className="flex gap1">
               <div className="imgBox"><img src={addui} alt="" /></div>
               <div className="flexC justify-between">
@@ -99,7 +99,7 @@ const Testimonial = () =>
           </div>
 
           <div className="testimonial flexC gap2">
-            <div className="">"Choosing IET Study Hub was one of the best decisions I made for my Ei studies. The notes are structured in a way that simplifies even the most intricate topics, and the inclusion of practical examples makes learning enjoyable. The past year question sets were invaluable—they not only tested my knowledge but also helped me identify areas needing more focus."</div>
+            <div className="">"IET Study Hub was one of the platform that I used most for my Ei studies. The notes are structured in a way that simplifies even the most intricate topics, The past year question sets were invaluable—they not only tested my knowledge but also helped me identify areas needing more focus."</div>
             <div className="flex gap1">
               <div className="imgBox"><img src={piyushi} alt="" /></div>
               <div className="flexC justify-between">
@@ -110,7 +110,7 @@ const Testimonial = () =>
           </div>
 
           <div className="testimonial flexC gap2">
-            <div className="">"IET Study Hub has been an absolute blessing throughout my Computer science journey. The notes are incredibly thorough and well-organized, covering every aspect of my course with clarity. What really stood out for me were the past year question sets—they not only helped me understand the exam format but also sharpened my problem-solving skills. Thanks to IET Study Hub, I feel well-prepared and confident heading into my exams."</div>
+            <div className="">"IET Study Hub is an absolute blessing for my Computer science journey. The notes are incredibly thorough and well-organized, covering every aspect of my course with clarity. What really stood out for me were the past year question sets—they not only helped me understand the exam format but also sharpened my problem-solving skills. Thanks to IET Study Hub, I didn't need to look for resources elsewhere for my exams."</div>
             <div className="flex gap1">
               <div className="imgBox"><img src={tanyai} alt="" /></div>
               <div className="flexC justify-between">
