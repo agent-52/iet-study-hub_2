@@ -43,7 +43,7 @@ const Page1 = () =>
         </div>
         <div className="navDesktop">
           <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1} /></a>
-          <HashLink smooth to="/#page2" className="textDecNone"><Button text="Explore >" version={2} link="/#page2"/></HashLink>
+          <HashLink smooth to="/#page2" className="textDecNone"><Button text="Explore >" version={2}/></HashLink>
         </div>
       </div>
       <div className="p1r">

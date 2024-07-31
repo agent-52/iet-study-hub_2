@@ -53,7 +53,7 @@ const Header = () =>
       <Link to="/" className="textDecNone"><div className="text-medium" onClick={updateNavVisibilty}>Home</div></Link>
       <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link>
       <Link to="/team" className="textDecNone"><div className="text-medium">Team</div></Link>
-      <HashLink smooth to="/#page2" className="textDecNone"><div>Years</div></HashLink>
+      <HashLink smooth to="/#page2" className="textDecNone"><div className="text-medium">Years</div></HashLink>
       
     </div>
 
