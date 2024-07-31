@@ -41,8 +41,8 @@ const Page1 = () =>
           <div>Study whenever you feel like it.</div>
         </div>
         <div className="navDesktop">
-          <Button text="Contribute >" version={1}/>
-          <Button text="Explore >" version={2}/>
+          <Button text="Contribute >" version={1} link="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ=="/>
+          <Button text="Explore >" version={2} link="/#page2"/>
         </div>
       </div>
       <div className="p1r">

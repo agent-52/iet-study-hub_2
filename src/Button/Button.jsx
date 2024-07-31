@@ -1,14 +1,14 @@
 import "./Button.css"
 
-const Button = ({text, version=1}) =>
+const Button = ({text, version=1, link}) =>
 {
   if(version == 1){
     return(
-      <button className="button1 text-sm">{text}</button>
+      <a href={link} className="textDecNone"><button className="button1 text-sm">{text}</button></a>
     )
   }else{
     return(
-      <button className="button2 text-sm">{text}</button>
+      <a href={link} className="textDecNone"><button className="button2 text-sm">{text}</button></a>
     )
   }
   

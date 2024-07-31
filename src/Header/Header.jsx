@@ -29,8 +29,8 @@ const Header = () =>
         <Link to="/sorry" className="textDecNone"><div className="font-medium text-sm text-slate-11">Assignments</div></Link>
       </div>
       <div className="navDesktop">
-        <Button text="Sign in" version={2}/>
-        <Button text="Contribute >" version={1}/>
+        <Link to="/sorry" className="textDecNone"><Button text="Sign in" version={2}/></Link>
+        <Button text="Contribute >" version={1} link="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ=="/>
       </div>
     </div>
 
