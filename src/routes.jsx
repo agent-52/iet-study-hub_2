@@ -201,7 +201,7 @@ const routes = [
   },
   {
     path: "/year2/civil/AVR3C1Vikas",
-    element: <SubjectDetailPage array={am3Array3} teacher="Vikas Vishwakarma" linksArray={am3VvArray} pyq2023Array={pyqAm3Ps}/>
+    element: <SubjectDetailPage array={am3Array3} teacher="Vikas Vishwakarma" linksArray={am3VvArray} pyq2023Array={pyqAm3Vv}/>
   },
   // {
   //   path: "/year2/mech/3AMRC1Abhilasha",

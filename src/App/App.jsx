@@ -51,7 +51,7 @@ const App = () =>
           <div className="yearBox text-slate-12 text-sm0">
             <Link className="textDecNone" to="/year1">
               <div className="bigBox year1">
-                <div className="yearCount text-green-a9">1</div>
+                <div className="yearCount">1</div>
                 <div >First Year</div>
               </div>
             </Link>
