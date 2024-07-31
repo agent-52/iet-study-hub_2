@@ -57,7 +57,7 @@ const Cube = () =>{
    */
   //Geometry
   const particlesGeometry = new THREE.SphereGeometry(1.6, 32,32)
-  console.log(particlesGeometry)
+  // console.log(particlesGeometry)
   // const particlesGeometry = new THREE.BoxGeometry(2,2,2,15,15,15)
   // const particlesGeometry = new THREE.TetrahedronGeometry(1.5, 20)
   // const particlesGeometry = new THREE.BufferGeometry()

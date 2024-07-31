@@ -2,6 +2,8 @@ import "./Header.css"
 import { Link } from "react-router-dom"
 import Button from "../Button/Button"
 import { useEffect, useState } from "react"
+import { HashLink } from 'react-router-hash-link';
+
 import backArrow from "../assets/logos/arrow.png"
 const Header = () =>
 {
@@ -25,12 +27,12 @@ const Header = () =>
       <div className="navDesktop">
         <Link to="" className="textDecNone"><div className="font-medium text-sm text-slate-11">About</div></Link>
         <Link to="/team" className="textDecNone"><div className="font-medium text-sm text-slate-11">Team</div></Link>
-        <a href="#page2" className="textDecNone"><div className="font-medium text-sm text-slate-11">Years</div></a>
+        <HashLink smooth to="/#page2" className="textDecNone"><div className="font-medium text-sm text-slate-11">Years</div></HashLink>
         <Link to="/sorry" className="textDecNone"><div className="font-medium text-sm text-slate-11">Assignments</div></Link>
       </div>
       <div className="navDesktop">
         <Link to="/sorry" className="textDecNone"><Button text="Sign in" version={2}/></Link>
-        <Button text="Contribute >" version={1} link="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ=="/>
+        <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1}/></a>
       </div>
     </div>
 
@@ -51,7 +53,7 @@ const Header = () =>
       <Link to="/" className="textDecNone"><div className="text-medium" onClick={updateNavVisibilty}>Home</div></Link>
       <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link>
       <Link to="/team" className="textDecNone"><div className="text-medium">Team</div></Link>
-      <a href="#page2" className="textDecNone"><div className="text-medium">Years</div></a>
+      <HashLink smooth to="/#page2" className="textDecNone"><div>Years</div></HashLink>
       
     </div>
 

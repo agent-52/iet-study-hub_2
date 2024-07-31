@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import Cube from "../Cube/Cube"
 import "./Page1.css"
 import { useEffect } from "react"
+import { HashLink } from "react-router-hash-link"
 
 
 /**
@@ -41,8 +42,8 @@ const Page1 = () =>
           <div>Study whenever you feel like it.</div>
         </div>
         <div className="navDesktop">
-          <Button text="Contribute >" version={1} link="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ=="/>
-          <Button text="Explore >" version={2} link="/#page2"/>
+          <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1} /></a>
+          <HashLink smooth to="/#page2" className="textDecNone"><Button text="Explore >" version={2} link="/#page2"/></HashLink>
         </div>
       </div>
       <div className="p1r">
