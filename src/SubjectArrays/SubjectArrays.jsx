@@ -686,7 +686,7 @@ const pyqAm2Dr = ["pyqAm2Dr/2023/1.pdf", "pyqAm2Dr/2023/2.pdf", "pyqAm2Dr/2023/3
     subName: "Computer Architecture",
     subCode: "3CERG1",
     src: csecai,
-    teachers:["Vrinda Tokekar"],
+    teachers:["Vrinda Tokekar", "Navneet Choudhary"],
     
   },
   {
@@ -842,6 +842,7 @@ const deArray1 = [
 //ca
 const caVtArray = ["caVt/unit1.pdf","caVt/unit2.pdf","caVt/unit3.pdf","caVt/unit4.pdf","caVt/unit5.pdf"]
 const caCpArray = ["caCp/unit1.pdf","caCp/unit2.pdf","caCp/unit3.pdf","caCp/unit4.pdf","caCp/unit5.pdf"]
+const caNcArray = ["caNc/unit1.pdf","caNc/unit2.pdf","caNc/unit3.pdf","caNc/unit4.pdf","caNc/unit5.pdf"]
 
 const caArray = [
   {
@@ -1797,7 +1798,7 @@ export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, a
 year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
 pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
  am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsGkArray, dsSkArray, dsPkArray, 
-deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
+deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caNcArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
 dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs, pyqAm3Vv, pyqDsGk, pyqDsSk}
