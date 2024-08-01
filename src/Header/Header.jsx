@@ -25,7 +25,7 @@ const Header = () =>
     <div className="header noWrap">
       <Link className="textDecNone" to="/"><div className="logo text-m1 font-medium1">IET Study Hub</div></Link>
       <div className="navDesktop">
-        <Link to="" className="textDecNone"><div className="font-medium text-sm text-slate-11">About</div></Link>
+        {/* <Link to="" className="textDecNone"><div className="font-medium text-sm text-slate-11">About</div></Link> */}
         <Link to="/team" className="textDecNone"><div className="font-medium text-sm text-slate-11">Team</div></Link>
         <HashLink smooth to="/#page2" className="textDecNone"><div className="font-medium text-sm text-slate-11">Years</div></HashLink>
         <Link to="/sorry" className="textDecNone"><div className="font-medium text-sm text-slate-11">Assignments</div></Link>
@@ -51,7 +51,7 @@ const Header = () =>
         
       </div>
       <Link to="/" className="textDecNone"><div className="text-medium" onClick={updateNavVisibilty}>Home</div></Link>
-      <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link>
+      {/* <Link to="/about" className="textDecNone"><div className="text-medium">About</div></Link> */}
       <Link to="/team" className="textDecNone"><div className="text-medium">Team</div></Link>
       <HashLink smooth to="/#page2" className="textDecNone"><div className="text-medium">Years</div></HashLink>
       
