@@ -234,7 +234,7 @@ const Team = () =>
                     <div className="flexC gap1">
                         <div><span>Abhinav Sahu (2022-2026)</span> for providingpyq's and notes of cse SEM-III </div>
                         <div><span>Kashish Jakhodiya (2023-2027) </span> for providing notes of cse SEM-III</div>
-                        <div><span>Shruti Gangeade (2022-2026)  </span> for providing notes of entc SEM-III</div>
+                        <div><span>Shruti Gangrade (2022-2026)  </span> for providing notes of entc SEM-III</div>
                         <div><span>Vidhan Agrawal (2023-2027) </span> for providing notes of it SEM-III</div>
                     </div>
                     <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1} /></a>
