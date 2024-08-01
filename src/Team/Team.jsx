@@ -3,6 +3,7 @@ import "./Team.css"
 import Header from "../Header/Header"
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import Button from "../Button/Button";
 import abhay1 from "/textures/teamImages/abhay.jpg"
 import vishali from "/textures/teamImages/vishal2.jpeg"
 import pranshui from "/textures/teamImages/pranshu1.jpeg"
@@ -227,6 +228,16 @@ const Team = () =>
                         </div>
 
                     </div>
+                </div>
+                <div className="thanksSection flexC gap2 alignC">
+                    <div className="text-medium">Thanks for the help</div>
+                    <div className="flexC gap1">
+                        <div><span>Abhinav Sahu (2022-2026)</span> for providingpyq's and notes of cse SEM-III </div>
+                        <div><span>Kashish Jakhodiya (2023-2027) </span> for providing notes of cse SEM-III</div>
+                        <div><span>Shruti Gangeade (2022-2026)  </span> for providing notes of entc SEM-III</div>
+                        <div><span>Vidhan Agrawal (2023-2027) </span> for providing notes of it SEM-III</div>
+                    </div>
+                    <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1} /></a>
                 </div>
             </div>
             

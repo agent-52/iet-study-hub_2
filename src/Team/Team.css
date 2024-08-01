@@ -88,3 +88,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.thanksSection{
+    margin-block: 4rem;
+}
