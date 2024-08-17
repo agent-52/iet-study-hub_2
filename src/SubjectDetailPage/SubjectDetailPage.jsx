@@ -6,7 +6,7 @@ import reactVideo from "../assets/3d-react.mp4"
 import { useEffect } from "react"
 
 
-const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], pyq2023Array=[]}) =>{
+const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], pyq2023Array=[], pyq2022Array=[]}) =>{
 
   useEffect(()=>{
     const noteLinkArray = Array.from(document.querySelectorAll(".noteLink"))
@@ -17,6 +17,11 @@ const SubjectDetailPage = ({array, teacher, linksArray , pyqYearArray=[2023], py
     const pyq2023LinkArray = Array.from(document.querySelectorAll(".pyq2023"))
     for (let i=0; i< pyq2023LinkArray.length; i++) {
       pyq2023LinkArray[i].href = "/"+pyq2023Array[i]
+    }
+
+    const pyq2022LinkArray = Array.from(document.querySelectorAll(".pyq2022"))
+    for (let i=0; i< pyq2022LinkArray.length; i++) {
+      pyq2022LinkArray[i].href = "/"+pyq2022Array[i]
     }
   },[])
 

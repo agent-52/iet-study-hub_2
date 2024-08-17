@@ -1723,11 +1723,13 @@ const pyqAm3Vv = ["pyqAm3Vv/2023/1.pdf", "pyqAm3Vv/2023/2.pdf", "pyqAm3Vv/2023/3
 //oop
 const pyqOopJh = ["pyqOopJh/2023/1.pdf", "pyqOopJh/2023/2.pdf", "pyqOopJh/2023/3.pdf", "pyqOopJh/2023/endsem.pdf"]
 const pyqOopAm = ["pyqOopAm/2023/1.pdf", "pyqOopAm/2023/2.pdf", "pyqOopAm/2023/3.pdf", "pyqOopAm/2023/endsem.pdf"]
+const pyqOopAm2022 = ["pyqOopAm/2022/1.pdf", "pyqOopAm/2022/2.pdf", "pyqOopAm/2022/3.pdf", "pyqOopAm/2022/endsem.pdf"]
 
 //ds
 const pyqDsVj = ["pyqDsVj/2023/1.pdf", "pyqDsVj/2023/2.pdf", "pyqDsVj/2023/3.pdf", "pyqDsVj/2023/endsem.pdf"]
 const pyqDsAj = ["pyqDsAj/2023/1.pdf", "pyqDsAj/2023/2.pdf", "pyqDsAj/2023/3.pdf", "pyqDsAj/2023/endsem.pdf"]
 const pyqDsPk = ["pyqDsPk/2023/1.pdf", "pyqDsPk/2023/2.pdf", "pyqDsPk/2023/3.pdf", "pyqDsPk/2023/endsem.pdf"]
+const pyqDsPk2022 = ["pyqDsPk/2022/1.pdf", "pyqDsPk/2022/2.pdf", "pyqDsPk/2022/3.pdf", "pyqDsPk/2022/endsem.pdf"]
 const pyqDsHp = ["pyqDsHp/2023/1.pdf", "pyqDsHp/2023/2.pdf", "pyqDsHp/2023/3.pdf", "pyqDsHp/2023/endsem.pdf"]
 const pyqDsSk = ["pyqDsSk/2023/1.pdf", "pyqDsSk/2023/2.pdf", "pyqDsSk/2023/3.pdf", "pyqDsSk/2023/endsem.pdf"]
 const pyqDsGk = ["pyqDsGk/2023/1.pdf", "pyqDsGk/2023/2.pdf", "pyqDsGk/2023/3.pdf", "pyqDsGk/2023/endsem.pdf"]
@@ -1736,12 +1738,14 @@ const pyqDsGk = ["pyqDsGk/2023/1.pdf", "pyqDsGk/2023/2.pdf", "pyqDsGk/2023/3.pdf
 const pyqDeAp = ["pyqDeAp/2023/1.pdf", "pyqDeAp/2023/2.pdf", "pyqDeAp/2023/3.pdf", "pyqDeAp/2023/endsem.pdf"]
 const pyqDePs = ["pyqDePs/2023/1.pdf", "pyqDePs/2023/2.pdf", "pyqDePs/2023/3.pdf", "pyqDePs/2023/endsem.pdf"]
 const pyqDeSm = ["pyqDeSm/2023/1.pdf", "pyqDeSm/2023/2.pdf", "pyqDeSm/2023/3.pdf", "pyqDeSm/2023/endsem.pdf"]
+const pyqDeSm2022 = ["pyqDeSm/2022/1.pdf", "pyqDeSm/2022/2.pdf", "pyqDeSm/2022/3.pdf", "pyqDeSm/2022/endsem.pdf"]
 const pyqDeSt = ["pyqDeSt/2023/1.pdf", "pyqDeSt/2023/2.pdf", "pyqDeSt/2023/3.pdf", "pyqDeSt/2023/endsem.pdf"]
 const pyqDeSb = ["pyqDeSb/2023/1.pdf", "pyqDeSb/2023/2.pdf", "pyqDeSb/2023/3.pdf", "pyqDeSb/2023/endsem.pdf"]
 
 //ca
 const pyqCaVt = ["pyqCaVt/2023/1.pdf", "pyqCaVt/2023/2.pdf", "pyqCaVt/2023/3.pdf", "pyqCaVt/2023/endsem.pdf"]
 const pyqCaCpP = ["pyqCaCpP/2023/1.pdf", "pyqCaCpP/2023/2.pdf", "pyqCaCpP/2023/3.pdf", "pyqCaCpP/2023/endsem.pdf"]
+const pyqCaCpP2022 = ["pyqCaCpP/2022/1.pdf", "pyqCaCpP/2022/2.pdf", "pyqCaCpP/2022/3.pdf", "pyqCaCpP/2022/endsem.pdf"]
 
 //ch
 const pyqChVv = ["pyqChVv/2023/1.pdf", "pyqChVv/2023/2.pdf", "pyqChVv/2023/3.pdf", "pyqChVv/2023/endsem.pdf"]
@@ -1755,6 +1759,7 @@ const pyqEsAc = ["pyqEsAc/2023/1.pdf", "pyqEsAc/2023/2.pdf", "pyqEsAc/2023/3.pdf
 
 //dm
 const pyqDmSa = ["pyqDmSa/2023/1.pdf", "pyqDmSa/2023/2.pdf", "pyqDmSa/2023/3.pdf", "pyqDmSa/2023/endsem.pdf"]
+const pyqDmSa2022 = ["pyqDmSa/2022/1.pdf", "pyqDmSa/2022/2.pdf", "pyqDmSa/2022/3.pdf", "pyqDmSa/2022/endsem.pdf"]
 
 //ae
 const pyqAeSk = ["pyqAeSk/2023/1.pdf", "pyqAeSk/2023/2.pdf", "pyqAeSk/2023/3.pdf", "pyqAeSk/2023/endsem.pdf"]
@@ -1801,4 +1806,4 @@ pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqC
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caNcArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
 somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
-dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs, pyqAm3Vv, pyqDsGk, pyqDsSk}
+dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray, am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss,pyqAm3Ps, pyqAm3Ab, am3VvArray, pyqCsAs, pyqAm3Vv, pyqDsGk, pyqDsSk, pyqCaCpP2022, pyqDeSm2022, pyqDmSa2022, pyqDsPk2022, pyqOopAm2022}

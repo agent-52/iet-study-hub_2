@@ -9,7 +9,7 @@ import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am
   somArray, somGpArray,sArray, sSmArray, cmArray, cmPtArray, smArray, smGvArray, dcsScArray, 
   dmArray, dmSaArray, dcsArray, pyqAm2V, am2VArray,am2DrArray, pyqAm2Dr, eeBArray, pyqEeB, hDbArray, pyqHDb, 
   pyqAeGk, pyqAeSk, pyqAeSp, pyqAm3Sa, pyqCaCpP, pyqCaVt, pyqChCpP, pyqChVv, pyqCmPt, pyqDcsSc, pyqDeAp, pyqDePs, pyqDeSb, pyqDeSm, pyqDeSt, pyqDmSa, pyqDsAj, pyqDsHp, pyqDsPk, pyqDsVj, pyqEsAc, pyqLmKl, pyqNaAv, pyqNaDn, pyqOopAm, pyqOopJh, pyqSSm, pyqSmGv, pyqSomGp, pyqSw1Mj, pyqSw1Ss, pyqAm3Ps, pyqAm3Ab, pyqCsAs,pyqAm3Vv,
-  dsGkArray, dsSkArray, pyqDsSk, pyqDsGk,
+  dsGkArray, dsSkArray, pyqDsSk, pyqDsGk, pyqOopAm2022, pyqCaCpP2022, pyqDeSm2022, pyqDmSa2022, pyqDsPk2022
 } from "./SubjectArrays/SubjectArrays.jsx"
 import {DisplayGrid, Year1Grid} from "./Year1Grid/Year1Grid.jsx";
 import {DisplayGrid2, Year2Grid} from "./Year2Grid/Year2Grid.jsx"
@@ -211,7 +211,7 @@ const routes = [
   //dm
   {
     path: "/year2/it/3AIRC1Sufiya",
-    element: <SubjectDetailPage array={dmArray} teacher="Sufiya Aziz" linksArray={dmSaArray} pyq2023Array={pyqDmSa}/>
+    element: <SubjectDetailPage array={dmArray} teacher="Sufiya Aziz" linksArray={dmSaArray} pyq2023Array={pyqDmSa} pyqYearArray={[2023, 2022]} pyq2022Array={pyqDmSa2022}/>
   },
 
   //oop
@@ -221,7 +221,7 @@ const routes = [
   },
   {
     path: "/year2/it/3ITRC2Aditya",
-    element: <SubjectDetailPage array={oopArray} teacher="Aditya Makwe" linksArray={oopAmArray} pyq2023Array={pyqOopAm}/>
+    element: <SubjectDetailPage array={oopArray} teacher="Aditya Makwe" linksArray={oopAmArray} pyq2023Array={pyqOopAm} pyqYearArray={[2023, 2022]} pyq2022Array={pyqOopAm2022}/>
   },
 
   //ds
@@ -235,7 +235,7 @@ const routes = [
   },
   {
     path: "/year2/it/3ITRC3Pravin",
-    element: <SubjectDetailPage array={dsArray1} teacher="Pravin Karma" linksArray={dsPkArray} pyq2023Array={pyqDsPk}/>
+    element: <SubjectDetailPage array={dsArray1} teacher="Pravin Karma" linksArray={dsPkArray} pyq2023Array={pyqDsPk} pyqYearArray={[2023, 2022]} pyq2022Array={pyqDsPk2022}/>
   },
   {
     path: "/year2/etc/3ETRC3Sonali",
@@ -261,7 +261,7 @@ const routes = [
   },
   {
     path: "/year2/it/3ITRC4Sneha",
-    element: <SubjectDetailPage array={deArray1} teacher="Sneha Moghe" linksArray={deSmArray} pyq2023Array={pyqDeSm}/>
+    element: <SubjectDetailPage array={deArray1} teacher="Sneha Moghe" linksArray={deSmArray} pyq2023Array={pyqDeSm} pyqYearArray={[2023, 2022]} pyq2022Array={pyqDeSm2022}/>
   },
   {
     path: "/year2/etc/3ETRC2Sanjiv",
@@ -293,7 +293,7 @@ const routes = [
   },
   {
     path: "/year2/it/3ITRG1C.P.",
-    element: <SubjectDetailPage array={caArray} teacher="C.P. Patidar" linksArray={caCpArray} pyq2023Array={pyqCaCpP}/>
+    element: <SubjectDetailPage array={caArray} teacher="C.P. Patidar" linksArray={caCpArray} pyq2023Array={pyqCaCpP} pyqYearArray={[2023, 2022]} pyq2022Array={pyqCaCpP2022}/>
   },
 
   //es
