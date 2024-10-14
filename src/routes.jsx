@@ -138,7 +138,7 @@ const routes = [
   //ed
   {
     path: "/year1/batch2/2MERC3Omprakash",
-    element: <SubjectDetailPage array={hArray} teacher="Omprakash" linksArray={edOjArray} pyq2023Array={pyqEdOj}/>
+    element: <SubjectDetailPage array={edArray} teacher="Omprakash" linksArray={edOjArray} pyq2023Array={pyqEdOj}/>
   },
   //ee
   {
