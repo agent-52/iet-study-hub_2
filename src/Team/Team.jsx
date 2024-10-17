@@ -237,6 +237,7 @@ const Team = () =>
                         <div><span className="font-medium">Shruti Gangrade (2022-2026)  </span> for providing notes of entc SEM-III</div>
                         <div><span className="font-medium">Vidhan Agrawal (2023-2027) </span> for providing notes of it SEM-III</div>
                         <div><span className="font-medium">Aakhya Sharma (2023-2027) </span> for providing pyq of cse SEM-I</div>
+                        <div><span className="font-medium">Hrishika jain (2023-2027) </span> for providing notes of cse SEM-I, SEM-II</div>
                     </div>
                     <a href="https://www.instagram.com/ietstudyhub?igsh=MWR5b3FnbWoyNTl6aQ==" className="textDecNone"><Button text="Contribute >" version={1} /></a>
                 </div>
