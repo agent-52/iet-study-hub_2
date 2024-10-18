@@ -100,7 +100,7 @@ const year1Batch1Array = [
     subCode: "1AMRC1",
     subName: "Appled Mathematics-I",
     src: am1i,
-    teachers:["Divyani Badjatiya","Salika Ansari","Anas Khan",],
+    teachers:["Rohit Pathak","Salika Ansari","Anas Khan",],
     
   },
   {
@@ -181,7 +181,7 @@ const year1Batch2Array = [{
  * year1 teachers
 */
 
-const am1DbArray =["am1Db/unit1.pdf","am1Db/unit2.pdf","am1Db/unit3.pdf","am1Db/unit4.pdf","am1Db/unit5.pdf"]
+const am1RpArray =["am1Rp/unit1.pdf","am1Rp/unit2.pdf","am1Rp/unit3.pdf","am1Rp/unit4.pdf","am1Rp/unit5.pdf"]
 const am1AkArray =["am1Ak/unit1.pdf","am1Ak/unit2.pdf","am1Ak/unit3.pdf","am1Ak/unit4.pdf","am1Ak/unit5.pdf"]
 const am1SaArray = ["am1Sa/unit1.pdf","am1Sa/unit2.pdf","am1Sa/unit3.pdf","am1Sa/unit4.pdf","am1Sa/unit5.pdf"]
 
@@ -606,6 +606,7 @@ const pyqBeAg = ["pyqBeAg/2023/1.pdf", "pyqBeAg/2023/2.pdf", "pyqBeAg/2023/3.pdf
 const pyqAm1Db = ["pyqAm1Db/2023/1.pdf", "pyqAm1Db/2023/2.pdf", "pyqAm1Db/2023/3.pdf", "pyqAm1Db/2023/endsem.pdf"]
 const pyqAm1Sa = ["pyqAm1Sa/2023/1.pdf", "pyqAm1Sa/2023/2.pdf", "pyqAm1Sa/2023/3.pdf", "pyqAm1Sa/2023/endsem.pdf"]
 const pyqAm1Ak = ["pyqAm1Ak/2023/1.pdf", "pyqAm1Ak/2023/2.pdf", "pyqAm1Ak/2023/3.pdf", "pyqAm1Ak/2023/endsem.pdf"]
+const pyqAm1Rp = ["pyqAm1Rp/2023/1.pdf", "pyqAm1Rp/2023/2.pdf", "pyqAm1Rp/2023/3.pdf", "pyqAm1Rp/2023/endsem.pdf"]
 
 //eme
 const pyqEmeJs = ["pyqEmeJs/2023/1.pdf", "pyqEmeJs/2023/2.pdf", "pyqEmeJs/2023/3.pdf", "pyqEmeJs/2023/endsem.pdf"]
@@ -1799,9 +1800,9 @@ const pyqCsAs = ["pyqCsAs/2023/1.pdf", "pyqCsAs/2023/2.pdf", "pyqCsAs/2023/3.pdf
 
 
 
-export { year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2EtcBatch1Array, year2EiBatch1Array,
+export { year1Batch1Array, year1Batch2Array, am1Array, am1RpArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray, year2CseBatch1Array, year2ItBatch1Array, year2EtcBatch1Array, year2EiBatch1Array,
 year2MechBatch1Array, year2CivilBatch1Array, beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,
-pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
+pyqAm1Ak,pyqAm1Rp, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs,
  am3Array1, am3Array2, am3Array3, am3PsArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsGkArray, dsSkArray, dsPkArray, 
 deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray, caVtArray, caNcArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
 aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,

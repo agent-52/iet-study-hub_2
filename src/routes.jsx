@@ -2,7 +2,7 @@ import App from "./App/App.jsx"
 import ErrorPage from "./Error/Error.jsx";
 // import Page2 from "./Page2/Page2.jsx";
 import SubjectDetailPage from "./SubjectDetailPage/SubjectDetailPage.jsx";
-import {year1Batch1Array, year1Batch2Array, am1Array, am1DbArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , year2CseBatch1Array, year2ItBatch1Array,  beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs, 
+import {year1Batch1Array, year1Batch2Array, am1Array, am1RpArray, am1AkArray, am1SaArray, beAjArray, beAgArray, cDmArray, cJsArray, eRsArray , pyqAm1Rp,year2CseBatch1Array, year2ItBatch1Array,  beArray, cArray, eArray, emeArray, emeIhArray, emeJsArray, emeNsArray, emeSkArray, apArray, apRgArray, apSkArray, hAaArray, hAsArray, hArray, edArray, edOjArray, eeArray, eeAvArray, eeNArray, eeSpArray, eeTsArray, cpArray, cpMpArray, cpNcArray, am2Array, am2CcArray,pyqAm1Ak, pyqAm1Db, pyqAm1Sa, pyqAm2Cc, pyqApRg, pyqApSk, pyqBeAg, pyqBeAj, pyqCDm, pyqCJs, pyqCpMp, pyqCpNc, pyqERs, pyqEdOj, pyqEeAv, pyqEeN, pyqEeSp, pyqEeTs, pyqEmeIh, pyqEmeJs, pyqEmeNs, pyqEmeSk, pyqHAa, pyqHAs, 
   am3Array1, am3Array2, am3Array3, am3PsArray, am3VvArray, am3SaArray, am3VfArray, oopArray, oopJhArray, oopAmArray, dsArray1, dsArray2, dsAjArray, dsVjArray, dsPkArray, 
   deArray1, deArray2, deApArray, dePsArray, deStArray, deSmArray, caArray,caNcArray, caVtArray, caCpArray, chArray, chVvArray, chCpArray, lmArray, lmKlArray, esArray, esAcArray,
   aeArray, aeGkArray, aeSkArray, naArray, naAvArray, naDnArray, sw1Array, sw1MjArray, csArray, csAsArray, deSbArray, dsHpArray, aeSpArray, sw1SsArray,
@@ -62,8 +62,8 @@ const routes = [
   },
   //am1
   {
-    path: "/year1/batch1/1AMRC1Divyani",
-    element: <SubjectDetailPage array={am1Array} teacher="Divyani Badjatiya" linksArray={am1DbArray} pyq2023Array={pyqAm1Db}/>
+    path: "/year1/batch1/1AMRC1Rohit",
+    element: <SubjectDetailPage array={am1Array} teacher="Rohit Pathak" linksArray={am1RpArray} pyq2023Array={pyqAm1Rp}/>
   },
   {
     path: "/year1/batch1/1AMRC1Salika",
